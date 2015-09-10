@@ -1,0 +1,272 @@
+\documentclass{diplomka}
+\usepackage[utf8]{inputenc}
+\usepackage[english,czech]{babel}
+\usepackage{multirow}
+\usepackage{ae}
+\usepackage{color}
+\usepackage{array}
+\usepackage[justification=centering]{caption}
+\usepackage{listings}
+\usepackage{sidecap}
+\usepackage{fancyhdr}
+\usepackage[pdftex,unicode]{hyperref}
+\usepackage{url}
+\usepackage{tocloft}
+\usepackage{longtable}
+\usepackage{glossaries}
+\usepackage[numbers,sort&compress]{natbib}
+
+\makeglossaries
+
+%\usepackage[pdftex]{graphicx}
+\usepackage{graphicx}
+\author{\foreignlanguage{czech}{Bc. Jiří Vaněk}}
+\title{Data format for electrophysiological experiments}
+\titlet{}
+\titlett{}
+\university{University of West Bohemia}
+\faculty{Faculty of Applied Sciences}
+\department{Department of Computer Science and Engineering}
+\subject{Master Thesis}
+\town{Pilsen}
+
+\begin{document}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{\textit{#1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\textit{#1}}{}}
+\cfoot{\thepage}
+\lhead{\leftmark}
+\rhead{\rightmark}
+\maketitle
+\include{chapter/acronyms}
+\chapter*{Acknowledgment}
+\thispagestyle{empty}
+I would like to thank my supervisor \foreignlanguage{czech}{Ing. Roman Mouček Ph.D.} for his advice and also I would like to thank to my whole family for their support.
+
+
+\selectlanguage{english}
+
+
+\chapter*{Statement}
+\thispagestyle{empty}
+I hereby declare that this master thesis is completely my own work and that I used only the cited sources. 
+\vskip 1.5em
+Pilsen, May 1 2015
+\vskip 0.7em
+\hskip 9cm \foreignlanguage{czech}{Bc. Jiří Vaněk}
+%\selectlanguage{english}
+
+\include{chapter/abstract_cz}
+\include{chapter/abstract_en}
+\tableofcontents
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{\textit{#1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\textit{#1}}{}}
+\cfoot{\thepage}
+\lhead{\leftmark}
+\rhead{\rightmark}
+\parskip 1em
+\include{chapter/introduction}
+%\include{chapter/theory}
+\include{chapter/stateofart}
+\include{chapter/practical}
+\include{chapter/summary}
+
+\newpage
+\phantomsection \label{listoffig}
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+\phantomsection \label{listoftables}
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+\phantomsection \label{listoflistings}
+\addcontentsline{toc}{chapter}{List of Listings}
+\lstlistoflistings
+\phantomsection \label{acronyms}
+\addcontentsline{toc}{chapter}{Acronyms}
+\printglossaries
+\phantomsection \label{bibliography}
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{csplainnat}
+\bibliography{diplomka}
+%\nocite{}
+
+%\pagestyle{empty}
+%\phantomsection \label{attachments}
+\addcontentsline{toc}{chapter}{Attachments}
+\appendix
+\chapter{Brain Vision Files Examples}
+
+\begin{lstlisting}[frame=single,caption={The header file example - Information about format and channels and the amplifier setup.},label=HeaderFile3]
+[Binary Infos]
+BinaryFormat=INT_16
+
+[Channel Infos]
+;Each entry: Ch<number>=<Name>,<Reference channel name>,
+;<Resolution in "Unit">,<Unit>,Future extensions..
+;Fields are delimited by commas, some fields might be omitted.
+;Commas in channel names are coded as "\1".
+
+Ch1=1,,0.1,$\mu$V
+Ch2=2,,0.1,$\mu$V
+...
+
+Ch41=41,,0.1526,C
+Ch42=42,,0.0763,mm
+...
+[Comment]
+A m p l i f i e r S e t u p
+============================
+Number of channels: 48
+Sampling Rate [Hz]: 200
+\end{verbatim}
+Sampling Interval [$\mu$S]: 5000
+
+Channels
+
+- - - - - - - -
+\end{lstlisting}
+\resizebox{14cm}{!} {
+	\begin{tabular}{|c|p{1.5cm}|p{1.5cm}|p{2cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+		\hline & Name & Phys. Chn & Resol./ Unit & Low Cutoff [s] & High Cutoff [Hz] & Notch [Hz] & Series Res. [kOhm] & Gradient & Offset \\ 
+		\hline 1 & 1 & 1 & 0.1 $\mu$V & DC &  &  &  &  &  \\ 
+		\hline 2 & 2 & 2 & 0.1 $\mu$V & DC &  &  &  &  &  \\ 
+		\hline ... &  &  &  &  &  &  &  &  &  \\ 
+		\hline 41 & 41 & 41 & 0.1526 C & DC &  &  &  &  &  \\ 
+		\hline 42 & 42 & 42 & 0.0765 mm & DC &  &  &  &  &  \\ 
+		\hline ... &  &  &  &  &  &  &  &  &  \\ 
+		\hline 
+		\end{tabular} 
+		\label{HeaderFile4}		
+		}
+		
+		\begin{center}
+
+			\end{center}
+			\begin{lstlisting}[frame=single,caption={The header file example - Information about used software filters.},label=HeaderFile5]
+			
+			S o f t w a r e  F i l t e r s
+			==============================
+			# Low Cutoff [s] High Cutoff [Hz] Notch [Hz]
+			1 0.0006366 Off Off
+			2 0.0006366 Off Off
+			...
+			41 0.0006366 Off Off
+			42 0.0006366 Off Off
+			...
+			Impedance [kOhm] at 12:10:43:
+			1: Out of Range!
+			2: Out of Range!
+			...
+			41: Out of Range!
+			42: Out of Range!
+			...
+			Ref: Out of Range!
+			Gnd: Out of Range!
+			\end{lstlisting}
+	\newpage		
+			\begin{lstlisting}[frame=single,caption={The vmrk file example - information about stimuli},label=vmrk_file]
+			Brain Vision Data Exchange Marker File, Version 1.0
+			
+			[Common Infos]
+			Codepage=UTF-8
+			DataFile=0000007.eeg
+			
+			[Marker Infos]
+			; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+			; <Size in data points>, <Channel number (0 = marker is related to all channels)>
+			; Fields are delimited by commas, some fields might be omitted (empty).
+			; Commas in type or description text are coded as "\1".
+			Mk1=New Segment,,1,1,0,20120503112002605235
+			Mk2=Stimulus,S  7,110437,0,0
+			Mk3=Stimulus,S  7,110673,0,0
+			..
+			Mk1233=Stimulus,S  3,3209901,0,0
+			\end{lstlisting}
+\chapter{Metadata Terminology}
+\label{appendix1}
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.40]{obrazky/odml1.pdf}
+		\caption{The \gls{odml}terminology. Part 1.}
+		\label{meta_scheme1}
+		
+			\includegraphics[scale=0.40]{obrazky/odml4.pdf}
+			\caption{The \gls{odml}terminology. Part 2.}
+			\label{meta_scheme2}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.35]{obrazky/odml2.pdf}
+		\caption{The \gls{odml}terminology. Part 3.}
+		\label{meta_scheme3}
+	\end{center}		
+\end{figure}
+\begin{figure}[h]
+	\begin{center}		
+		\includegraphics[scale=0.35]{obrazky/odml3.pdf}
+		\caption{The \gls{odml}terminology. Part 4.}
+		\label{meta_scheme4}
+	\end{center}
+\end{figure}
+
+\chapter{Metadata Scheme}
+\label{appendix2}
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.40]{obrazky/meta-scheme.pdf}
+		\caption{Metadata scheme of EEGBase format.}
+		\label{meta_scheme}
+	\end{center}
+\end{figure}
+
+\chapter{Export Program User Manual}
+
+\section{Installation}
+
+
+
+The EEGExport program needs for its functionality installed HDF5 libraries version 2.10 or higher and Java Runtime Environment in version 1.7 or higher. The pre-build binary distribution could be obtained from official \href{https://www.hdfgroup.org/products/java/release/download.html\#download}{HDF Group website}. 
+
+The EEGExport program do not require installation. Program is distributed as runnable jar and could be lunched with supplied "run.bat" file. \textbf{The path to installed HDF libraries must be in the bat file for the correct function filled.} (Listing~\ref{batfile}).
+
+\begin{lstlisting}[language=C,frame=single,caption={Bat file},label=batfile]
+@ECHO OFF
+rem Fill in hdf_path path to installed HDF libraries
+set hdf_path=C:\HDF_Group\HDF-JAVA\2.11.0\lib\jhdf5.dll
+java -Dncsa.hdf.hdf5lib.H5.hdf5lib=%hdf_path% -jar program.jar
+\end{lstlisting}
+
+\section{Data Export}
+
+The location of hvdr, eeg and vmrk files and exported files location and file name must be set before export. The load of eeg files from EEGBase portal is not working in current version. So the option 1 (Figure~\ref{prg_gui}) must be selected. 
+
+\begin{figure}[h]
+	\begin{center}		
+		\includegraphics[scale=0.75]{obrazky/appendix/gui-start.png}
+		\caption{The EEGExport program GUI}
+		\label{prg_gui}
+	\end{center}
+\end{figure}
+\newpage
+\section{Metadata Export}
+
+If the metadata from EEGBase portal should be exported as well the option 2 must be checked and the number of experiment must be filled (Figure~\ref{prg_meta}).
+
+\section{Compression}
+
+The final file size could be influenced by compression. The amount of compression is set by chunk size. The chunk size 1 means no compression. Bigger chunk size sets bigger compression so the file size is smaller.
+
+
+
+\begin{figure}[h]
+	\begin{center}		
+		\includegraphics[scale=0.75]{obrazky/appendix/gui-meta.png}
+		\caption{The EEGExport program GUI}
+		\label{prg_meta}
+	\end{center}
+\end{figure}
+
+\end{document}

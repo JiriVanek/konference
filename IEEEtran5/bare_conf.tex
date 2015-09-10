@@ -1,0 +1,1009 @@
+
+%% bare_conf.tex
+%% V1.3
+%% 2007/01/11
+%% by Michael Shell
+%% See:
+%% http://www.michaelshell.org/
+%% for current contact information.
+%%
+%% This is a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.7 or later) with an IEEE conference paper.
+%%
+%% Support sites:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+%% and
+%% http://www.ieee.org/
+
+%%*************************************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or
+%% implied; without even the implied warranty of MERCHANTABILITY or
+%% FITNESS FOR A PARTICULAR PURPOSE! 
+%% User assumes all risk.
+%% In no event shall IEEE or any contributor to this code be liable for
+%% any damages or losses, including, but not limited to, incidental,
+%% consequential, or any other damages, resulting from the use or misuse
+%% of any information contained here.
+%%
+%% All comments are the opinions of their respective authors and are not
+%% necessarily endorsed by the IEEE.
+%%
+%% This work is distributed under the LaTeX Project Public License (LPPL)
+%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+%% distributed and modified. A copy of the LPPL, version 1.3, is included
+%% in the base LaTeX documentation of all distributions of LaTeX released
+%% 2003/12/01 or later.
+%% Retain all contribution notices and credits.
+%% ** Modified files should be clearly indicated as such, including  **
+%% ** renaming them and changing author support contact information. **
+%%
+%% File list of work: IEEEtran.cls, IEEEtran_HOWTO.pdf, bare_adv.tex,
+%%                    bare_conf.tex, bare_jrnl.tex, bare_jrnl_compsoc.tex
+%%*************************************************************************
+
+% *** Authors should verify (and, if needed, correct) their LaTeX system  ***
+% *** with the testflow diagnostic prior to trusting their LaTeX platform ***
+% *** with production work. IEEE's font choices can trigger bugs that do  ***
+% *** not appear when using other class files.                            ***
+% The testflow support page is at:
+% http://www.michaelshell.org/tex/testflow/
+
+
+
+% Note that the a4paper option is mainly intended so that authors in
+% countries using A4 can easily print to A4 and see how their papers will
+% look in print - the typesetting of the document will not typically be
+% affected with changes in paper size (but the bottom and side margins will).
+% Use the testflow package mentioned above to verify correct handling of
+% both paper sizes by the user's LaTeX system.
+%
+% Also note that the "draftcls" or "draftclsnofoot", not "draft", option
+% should be used if it is desired that the figures are to be displayed in
+% draft mode.
+%
+\documentclass[conference]{IEEEtran}
+% Add the compsoc option for Computer Society conferences.
+%
+% If IEEEtran.cls has not been installed into the LaTeX system files,
+% manually specify the path to it like:
+% \documentclass[conference]{../sty/IEEEtran}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{graphicx}
+
+%\usepackage{refcheck}
+
+
+% Some very useful LaTeX packages include:
+% (uncomment the ones you want to load)
+
+
+% *** MISC UTILITY PACKAGES ***
+%
+%\usepackage{ifpdf}
+% Heiko Oberdiek's ifpdf.sty is very useful if you need conditional
+% compilation based on whether the output is pdf or dvi.
+% usage:
+% \ifpdf
+%   % pdf code
+% \else
+%   % dvi code
+% \fi
+% The latest version of ifpdf.sty can be obtained from:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/oberdiek/
+% Also, note that IEEEtran.cls V1.7 and later provides a builtin
+% \ifCLASSINFOpdf conditional that works the same way.
+% When switching from latex to pdflatex and vice-versa, the compiler may
+% have to be run twice to clear warning/error messages.
+
+
+
+
+
+
+% *** CITATION PACKAGES ***
+%
+%\usepackage{cite}
+% cite.sty was written by Donald Arseneau
+% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
+% \cite{} output to follow that of IEEE. Loading the cite package will
+% result in citation numbers being automatically sorted and properly
+% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
+% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
+% \cite will automatically add leading space, if needed. Use cite.sty's
+% noadjust option (cite.sty V3.8 and later) if you want to turn this off.
+% cite.sty is already installed on most LaTeX systems. Be sure and use
+% version 4.0 (2003-05-27) and later if using hyperref.sty. cite.sty does
+% not currently provide for hyperlinked citations.
+% The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/cite/
+% The documentation is contained in the cite.sty file itself.
+
+
+
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  % \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../pdf/}{../jpeg/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+  % \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.eps}
+\fi
+% graphicx was written by David Carlisle and Sebastian Rahtz. It is
+% required if you want graphics, photos, etc. graphicx.sty is already
+% installed on most LaTeX systems. The latest version and documentation can
+% be obtained at: 
+% http://www.ctan.org/tex-archive/macros/latex/required/graphics/
+% Another good source of documentation is "Using Imported Graphics in
+% LaTeX2e" by Keith Reckdahl which can be found as epslatex.ps or
+% epslatex.pdf at: http://www.ctan.org/tex-archive/info/
+%
+% latex, and pdflatex in dvi mode, support graphics in encapsulated
+% postscript (.eps) format. pdflatex in pdf mode supports graphics
+% in .pdf, .jpeg, .png and .mps (metapost) formats. Users should ensure
+% that all non-photo figures use a vector format (.eps, .pdf, .mps) and
+% not a bitmapped formats (.jpeg, .png). IEEE frowns on bitmapped formats
+% which can result in "jaggedy"/blurry rendering of lines and letters as
+% well as large increases in file sizes.
+%
+% You can find documentation about the pdfTeX application at:
+% http://www.tug.org/applications/pdftex
+
+
+
+
+
+% *** MATH PACKAGES ***
+%
+%\usepackage[cmex10]{amsmath}
+% A popular package from the American Mathematical Society that provides
+% many useful and powerful commands for dealing with mathematics. If using
+% it, be sure to load this package with the cmex10 option to ensure that
+% only type 1 fonts will utilized at all point sizes. Without this option,
+% it is possible that some math symbols, particularly those within
+% footnotes, will be rendered in bitmap form which will result in a
+% document that can not be IEEE Xplore compliant!
+%
+% Also, note that the amsmath package sets \interdisplaylinepenalty to 10000
+% thus preventing page breaks from occurring within multiline equations. Use:
+%\interdisplaylinepenalty=2500
+% after loading amsmath to restore such page breaks as IEEEtran.cls normally
+% does. amsmath.sty is already installed on most LaTeX systems. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math/
+
+
+
+
+
+% *** SPECIALIZED LIST PACKAGES ***
+%
+%\usepackage{algorithmic}
+% algorithmic.sty was written by Peter Williams and Rogerio Brito.
+% This package provides an algorithmic environment fo describing algorithms.
+% You can use the algorithmic environment in-text or within a figure
+% environment to provide for a floating algorithm. Do NOT use the algorithm
+% floating environment provided by algorithm.sty (by the same authors) or
+% algorithm2e.sty (by Christophe Fiorio) as IEEE does not use dedicated
+% algorithm float types and packages that provide these will not provide
+% correct IEEE style captions. The latest version and documentation of
+% algorithmic.sty can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/algorithms/
+% There is also a support site at:
+% http://algorithms.berlios.de/index.html
+% Also of interest may be the (relatively newer and more customizable)
+% algorithmicx.sty package by Szasz Janos:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/algorithmicx/
+
+
+
+
+% *** ALIGNMENT PACKAGES ***
+%
+%\usepackage{array}
+% Frank Mittelbach's and David Carlisle's array.sty patches and improves
+% the standard LaTeX2e array and tabular environments to provide better
+% appearance and additional user controls. As the default LaTeX2e table
+% generation code is lacking to the point of almost being broken with
+% respect to the quality of the end results, all users are strongly
+% advised to use an enhanced (at the very least that provided by array.sty)
+% set of table tools. array.sty is already installed on most systems. The
+% latest version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/tools/
+
+
+%\usepackage{mdwmath}
+%\usepackage{mdwtab}
+% Also highly recommended is Mark Wooding's extremely powerful MDW tools,
+% especially mdwmath.sty and mdwtab.sty which are used to format equations
+% and tables, respectively. The MDWtools set is already installed on most
+% LaTeX systems. The lastest version and documentation is available at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/mdwtools/
+
+
+% IEEEtran contains the IEEEeqnarray family of commands that can be used to
+% generate multiline equations as well as matrices, tables, etc., of high
+% quality.
+
+
+%\usepackage{eqparbox}
+% Also of notable interest is Scott Pakin's eqparbox package for creating
+% (automatically sized) equal width boxes - aka "natural width parboxes".
+% Available at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/eqparbox/
+
+
+
+
+
+% *** SUBFIGURE PACKAGES ***
+%\usepackage[tight,footnotesize]{subfigure}
+% subfigure.sty was written by Steven Douglas Cochran. This package makes it
+% easy to put subfigures in your figures. e.g., "Figure 1a and 1b". For IEEE
+% work, it is a good idea to load it with the tight package option to reduce
+% the amount of white space around the subfigures. subfigure.sty is already
+% installed on most LaTeX systems. The latest version and documentation can
+% be obtained at:
+% http://www.ctan.org/tex-archive/obsolete/macros/latex/contrib/subfigure/
+% subfigure.sty has been superceeded by subfig.sty.
+
+
+
+%\usepackage[caption=false]{caption}
+%\usepackage[font=footnotesize]{subfig}
+% subfig.sty, also written by Steven Douglas Cochran, is the modern
+% replacement for subfigure.sty. However, subfig.sty requires and
+% automatically loads Axel Sommerfeldt's caption.sty which will override
+% IEEEtran.cls handling of captions and this will result in nonIEEE style
+% figure/table captions. To prevent this problem, be sure and preload
+% caption.sty with its "caption=false" package option. This is will preserve
+% IEEEtran.cls handing of captions. Version 1.3 (2005/06/28) and later 
+% (recommended due to many improvements over 1.2) of subfig.sty supports
+% the caption=false option directly:
+%\usepackage[caption=false,font=footnotesize]{subfig}
+%
+% The latest version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/subfig/
+% The latest version and documentation of caption.sty can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/caption/
+
+
+
+\usepackage{fixltx2e}
+% *** FLOAT PACKAGES ***
+%
+%\usepackage{fixltx2e}
+% fixltx2e, the successor to the earlier fix2col.sty, was written by
+% Frank Mittelbach and David Carlisle. This package corrects a few problems
+% in the LaTeX2e kernel, the most notable of which is that in current
+% LaTeX2e releases, the ordering of single and double column floats is not
+% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
+% single column figure to be placed prior to an earlier double column
+% figure. The latest version and documentation can be found at:
+% http://www.ctan.org/tex-archive/macros/latex/base/
+
+
+
+%\usepackage{stfloats}
+% stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
+% the ability to do double column floats at the bottom of the page as well
+% as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
+% LaTeX2e). It also provides a command:
+%\fnbelowfloat
+% to enable the placement of footnotes below bottom floats (the standard
+% LaTeX2e kernel puts them above bottom floats). This is an invasive package
+% which rewrites many portions of the LaTeX2e float routines. It may not work
+% with other packages that modify the LaTeX2e float routines. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/sttools/
+% Documentation is contained in the stfloats.sty comments as well as in the
+% presfull.pdf file. Do not use the stfloats baselinefloat ability as IEEE
+% does not allow \baselineskip to stretch. Authors submitting work to the
+% IEEE should note that IEEE rarely uses double column equations and
+% that authors should try to avoid such use. Do not be tempted to use the
+% cuted.sty or midfloat.sty packages (also by Sigitas Tolusis) as IEEE does
+% not format its papers in such ways.
+
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+%\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/misc/
+% Read the url.sty source comments for usage information. Basically,
+% \url{my_url_here}.
+
+
+
+
+
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+% There should be no need to do such things with IEEEtran.cls V1.6 and later.
+% (Unless specifically asked to do so by the journal or conference you plan
+% to submit to, of course. )
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{Data format for electrophysiological	experiments}
+
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{\IEEEauthorblockN{Jiří Vaněk}
+\IEEEauthorblockA{Faculty of Applied Sciences, Department of Computer Science and Engineering\\
+University of West Bohemia\\
+Pilsen, Czech republic\\
+Email: vanek2@kiv.zcu.cz}
+}
+
+% conference papers do not typically use \thanks and this command
+% is locked out in conference mode. If really needed, such as for
+% the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
+% after \documentclass
+
+% for over three affiliations, or if they all won't fit within the width
+% of the page, use this alternative format:
+% 
+%\author{\IEEEauthorblockN{Michael Shell\IEEEauthorrefmark{1},
+%Homer Simpson\IEEEauthorrefmark{2},
+%James Kirk\IEEEauthorrefmark{3}, 
+%Montgomery Scott\IEEEauthorrefmark{3} and
+%Eldon Tyrell\IEEEauthorrefmark{4}}
+%\IEEEauthorblockA{\IEEEauthorrefmark{1}School of Electrical and Computer Engineering\\
+%Georgia Institute of Technology,
+%Atlanta, Georgia 30332--0250\\ Email: see http://www.michaelshell.org/contact.html}
+%\IEEEauthorblockA{\IEEEauthorrefmark{2}Twentieth Century Fox, Springfield, USA\\
+%Email: homer@thesimpsons.com}
+%\IEEEauthorblockA{\IEEEauthorrefmark{3}Starfleet Academy, San Francisco, California 96678-2391\\
+%Telephone: (800) 555--1212, Fax: (888) 555--1212}
+%\IEEEauthorblockA{\IEEEauthorrefmark{4}Tyrell Inc., 123 Replicant Street, Los Angeles, California 90210--4321}}
+
+
+
+
+% use for special paper notices
+%\IEEEspecialpapernotice{(Invited Paper)}
+
+
+
+
+% make the title area
+\maketitle
+
+
+\begin{abstract}
+%\boldmath
+Currently there is no standardized data format for storing electrophysiological data. This standard is necessary for effective collaboration between scientists. This work deals with adjustments of existing data/metadata model for range of electrophysiological experiments and with proposal/implementation of data format for their storage.
+\end{abstract}
+% IEEEtran.cls defaults to using nonbold math in the Abstract.
+% This preserves the distinction between vectors and scalars. However,
+% if the conference you are submitting to favors bold math in the abstract,
+% then you can use LaTeX's standard command \boldmath at the very start
+% of the abstract to achieve this. Many IEEE journals/conferences frown on
+% math in the abstract anyway.
+
+% no keywords
+
+% An example of a floating figure using the graphicx package.
+% Note that \label must occur AFTER (or within) \caption.
+% For figures, \caption should occur after the \includegraphics.
+% Note that IEEEtran v1.7 and later has special internal code that
+% is designed to preserve the operation of \label within \caption
+% even when the captionsoff option is in effect. However, because
+% of issues like this, it may be the safest practice to put all your
+% \label just after \caption rather than within \caption{}.
+%
+% Reminder: the "draftcls" or "draftclsnofoot", not "draft", class
+% option should be used if it is desired that the figures are to be
+% displayed while in draft mode.
+%
+%\begin{figure}[!t]
+%\centering
+%\includegraphics[width=2.5in]{myfigure}
+% where an .eps filename suffix will be assumed under latex, 
+% and a .pdf suffix will be assumed for pdflatex; or what has been declared
+% via \DeclareGraphicsExtensions.
+%\caption{Simulation Results}
+%\label{fig_sim}
+%\end{figure}
+
+% Note that IEEE typically puts floats only at the top, even when this
+% results in a large percentage of a column being occupied by floats.
+
+
+% An example of a double column floating figure using two subfigures.
+% (The subfig.sty package must be loaded for this to work.)
+% The subfigure \label commands are set within each subfloat command, the
+% \label for the overall figure must come after \caption.
+% \hfil must be used as a separator to get equal spacing.
+% The subfigure.sty package works much the same way, except \subfigure is
+% used instead of \subfloat.
+%
+%\begin{figure*}[!t]
+%\centerline{\subfloat[Case I]\includegraphics[width=2.5in]{subfigcase1}%
+%\label{fig_first_case}}
+%\hfil
+%\subfloat[Case II]{\includegraphics[width=2.5in]{subfigcase2}%
+%\label{fig_second_case}}}
+%\caption{Simulation results}
+%\label{fig_sim}
+%\end{figure*}
+%
+% Note that often IEEE papers with subfigures do not employ subfigure
+% captions (using the optional argument to \subfloat), but instead will
+% reference/describe all of them (a), (b), etc., within the main caption.
+
+
+% An example of a floating table. Note that, for IEEE style tables, the 
+% \caption command should come BEFORE the table. Table text will default to
+% \footnotesize as IEEE normally uses this smaller font for tables.
+% The \label must come after \caption as always.
+%
+%\begin{table}[!t]
+%% increase table row spacing, adjust to taste
+%\renewcommand{\arraystretch}{1.3}
+% if using array.sty, it might be a good idea to tweak the value of
+% \extrarowheight as needed to properly center the text within the cells
+%\caption{An Example of a Table}
+%\label{table_example}
+%\centering
+%% Some packages, such as MDW tools, offer better commands for making tables
+%% than the plain LaTeX2e tabular which is used here.
+%\begin{tabular}{|c||c|}
+%\hline
+%One & Two\\
+%\hline
+%Three & Four\\
+%\hline
+%\end{tabular}
+%\end{table}
+
+
+% Note that IEEE does not put floats in the very first column - or typically
+% anywhere on the first page for that matter. Also, in-text middle ("here")
+% positioning is not used. Most IEEE journals/conferences use top floats
+% exclusively. Note that, LaTeX2e, unlike IEEE journals/conferences, places
+% footnotes above bottom floats. This can be corrected via the \fnbelowfloat
+% command of the stfloats package.
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+
+
+\section{Introduction}
+% no \IEEEPARstart
+Brain research has been very popular recently. Tens of measurements are conducted every year and it is very important to store measured data and all known information about experiments and measuring conditions for later use. It was common that experiments were designed, measured and analyzed and after evaluation this recorded data was deleted. But during last years it has become more important to store experiments for later use and to share data with other researchers to provide further analyses.
+
+It is important to develop an independent standard for storing and exporting experimental data and metadata. If this standard is accepted by a larger community, it will allow easy sharing and better understanding of conducted experiments.
+
+At first we had to get familiar with formats for storing electroencephalography and biomedical data. I explored their model, terminology and ontology. I became acquainted with the International Neuroinformatics Coordinating Facility (INCF) \cite{incfweb} working group and their standard proposal. Then I checked storing options of measured experiments at the University of West Bohemia. I analyzed the formats containing data and stored metadata. Then it was necessary to search for available formats for storing EEG data, compare them and choose the best one or develop a new one. After that I had to figure out the best way to
+export all relevant meta-data into the chosen format. Then I developed and tested the program that exports data and metadata into the chosen format.
+
+\section{State of the Art}
+\subsection{Data Sharing}
+A trend toward increased sharing of neuroinformatics data has emerged in recent years. Nevertheless, a number of barriers continue to impede easy sharing of experiment's data. Many researchers and institutions remain uncertain about how to share data or lack the tools and expertise to participate in data sharing. The motivation for sharing is:
+\begin{itemize}
+	\item \textbf{to accelerate progress in understanding of the brain}
+	
+	
+	Several researchers claim that more rapid scientific discoveries are possible with shared data \cite{Milham2012} \cite{Poldrack2012}.
+	\item \textbf{to improve data quality}
+	
+	The sharing data helps uncover mistakes as missing data, noise, errors, etc. and improves the quality of the data in the future experiments.
+	\item  \textbf{to reduce cost of research} 
+	
+	Neuroimaging research is costly both in terms of the data acquisition costs and the time spent in data documentation. A significant amount of money could be saved from redundant data acquisition if data were shared with appropriate metadata descriptions. \cite{Poline2012}
+	\end{itemize} 
+
+
+\subsection{Program on Standards for Data Sharing}
+\label{incf}
+INCF Program on Standards for Data Sharing was established for the purpose of specification the standard for storing EEG data. INCF is an international non-profit organization devoted to advancing the field of neuroinformatics and was established in 2005 in Stockholm. INCF community consists of 17 member countries and associated research groups, consortia, funding agencies and publishers in the field. The National Nodes are institutions or networks that represent each member country. The nodes are established to coordinate neuroinformatics activity within a country \cite{incf_mission}.
+
+Program Standards for Data Sharing aims to develop generic standard and tools to facilitate the recording, sharing, and reporting of neuroscience metadata in order to improve practices for the archiving and sharing of neuroscience data. Metadata define the methods and conditions of data acquisition and subsequent analytical processing, Metadata also describe conditions under which the actual raw-data were acquired.
+
+The current focus of the Program on Standards for Data Sharing is in two areas: neuroimaging and electrophysiology. \cite{incf_mission}. The most important requirement of such a standard is to accommodate common types of data used in electrophysiology or neuroimaging and also the metadata required to describe them.
+
+\subsection{Present formats for Storing EEG Data}
+Most known formats for storing EEG data use the format HDF5. Also both INCF proposals use HDF5 and the Electrophysiology Task Force of the INCF Program on Standards for Data Sharing in Requirements for a standard recommends basing a standard on HDF5. \cite{requirements} Some formats are proprietary and even though some of them are well documented, is due to licenses complicated to use them or edit them. So I focus on the open ones. For storing EEG neuroinformatics data many types of formats exist. The most known and used formats are Ovation \cite{ovation}, NeXus Format \cite{nexus}, NEO \cite{neo}, NeuroHDF \cite{neurohdf}, EDF+ \cite{kemp2003} and NIX (Pandora) \cite{pandora}. 
+\subsubsection{NIX}
+\label{nixsection}
+This format also uses HDF5 as a data container. This format specification closely defines an inner structure of file, especially the data part. The meta data part is defined by the odML. 
+The NIX project (previously called Pandora) started in the context of the Electrophysiology Task Force which is part of the INCF Datasharing Program. 
+
+NIX is one approach to this problem: it uses highly generic models for data as well as for metadata and defines standard schemata for HDF5 files representing these models. Last but not least NIX aims to provide a convenient C++ library to simplify the access to the defined format. The design principle of the data model used by NIX was to create a rather minimalistic, generic, yet expressive model that is able to represent data stored in other widely used formats or models like Neuroshare or NEO without any loss of information. Due to its generic approach, the data model is also able to represent other kinds of data used in the field e.g. image data or image stacks. \cite{pandora}
+
+\begin{figure*}[h]
+	\centering
+	\includegraphics[scale=0.9]{obrazky/NIX_scheme.png}
+	\caption{NIX data scheme. \cite{pandora}}
+	\label{NIX_scheme}
+\end{figure*}
+
+
+
+This format's scheme (Figure~\ref{NIX_scheme}) was taken as inspiration for EEGBase file format. The measurements are stored in blocks. Each block identifies measurement and related metadata section. Raw data (signals, stimuli) are saved in DataArrays and they are specified by Dimension, Sample, Set, Representation and Range (Figure~\ref{NIX_scheme}) and could be specified by DataTag. The stimuli and artifacts are stored in SimpleTag (one stimulus) or MultiTag (more stimuli). The source of DataArrays or Tags could be specified by Source. Each section could contain link to the metadata part with measurement information. 
+
+\subsubsection{Brain Vision Format}
+
+EEG data at University of West Bohemia are recorded by BrainVision Recorder \cite{brainvision}. This program records raw data and saves it to three files. 
+
+The BrainVision Recorder does not allow natively recorded data in any other format. Most recordings consist of three files. The format of these files is defined in the BrainVision Recorder User Manual \cite{brainUserManual}:
+\begin{itemize}
+	\item \textbf{data file}
+	\label{eeg}
+	
+	This is binary file which contains recorded values from a recording device. The data are stored as double numbers.
+	
+	\item \textbf{vhdr file}
+	\label{vhdr}
+	
+	This text file is Brain Vision Data Exchange Header File Version 1.0 and includes basic information about measurements. The format of the header file is based on the Windows INI format. It consists of various named sections containing keywords/values. The file stores basic information about measuring: coding, name of data file, name of marker file, number of channels, sampling interval in microseconds, information about binary format (IEEE\_FLOAT\_32) and information about channels (Channel number, channel name, resolution of unit, unit).
+	
+	\item \textbf{vmrk file}
+	\label{vmrk}
+	
+	This is Brain Vision Data Exchange Marker File, Version 1.0. The marker file is based upon the same principle of sections and keywords as the header file. This text file contains information about stimuli. The file stores stimuli number, type of the stimuli, description, position, size and channel number.
+	
+\end{itemize}
+
+These files are stored in the EEGBase portal \cite{eegportal} with metadata about an experiment and a measurement.
+
+\subsection{Hierarchical Data Format}
+
+HDF is a data model, file format and library for storing extremely large and complex data collections. This technology is able to store any kind of data and is used all over the world in research centers and government agencies. For example the format HDF5 is used by Cardiff University for resolving their problem with grid computing, Deutsche Bank for financial engineering, Diamond Light Source in synchrotron science, Laboratory for Neural Computation for bio-engineering and many others. A lot of formats for storing electrophysiology data use HDF5. 
+"The grouping structure in HDF5 enables applications to organize data objects in HDF5 to reflect complex relationships among objects. The rich collection of HDF5 datatypes, including datatypes that can point to data in other objects, and including the ability for users to define their own types, lets applications build sophisticated structures that match well with complex data. The HDF5 library has a correspondingly rich set of operations that enables applications to access just those components that are important." \cite{hdf}
+
+
+HDF is similar to XML documents, HDF files allow to specify complex data relationships and dependencies and are self-describing. Several APIs for programing languages C, C++, Fortran 90, Java and others are available for this format. 
+HDF is open-source (BSD license), stored data are human readable and the metadata model is easily customized.
+
+\subsection{Open Metadata Markup Language}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[scale=0.3]{obrazky/odml_tree.pdf}
+\caption{Open metadata Markup Language Entity-Relation diagram. \cite{odml}}
+\label{odml-tree}
+\end{figure}
+	
+The metadata in electrophysiology domain providing information about stimuli, data acquisition, and experimental conditions etc. are indispensable for the analysis and the management of experimental data within a lab. However, only rarely are metadata available in a structured, comprehensive, and machine-readable form. This poses a severe problem for finding and retrieving data, both in the laboratory and on the various emerging public data bases. \cite{odml} The odML defines the format, not the content, so that it is inherently extensible and can be adapted to the specific requirements of any laboratory. For data sharing a correct understanding of metadata and data is only possible if the same terminology is used or if mappings between terminologies are provided. For this purpose were assembled terminologies with definitions of commonly used terms. \cite{odmlarticle}
+
+
+
+
+\section{Design, Implementation, Testing}
+
+The EEGBase data model is based on the NIX data model (Figure~\ref{NIX_scheme} and Section~\ref{nixsection}). The NIX model is able to save data from any electrophysiology experiment. But for EEG experiments the NIX model is too general. So I used only necessary parts of the model and other sections were omitted. The omitted parts are in the NIX model optional, so my format is compatible with the NIX definition. EEGBase data model is described in Figure~\ref{format_scheme}. The data model uses the NIX scheme of Block, DataArray, MultiTag, DataTag and SimpleTag. The Block is used to divide measuring, DataArray stores raw data of signals and stimuli and MultiTag stores stimuli information and DataTag contains EEG channel information. DataArrays are divided for better distribution in my model to SIGNAL and MARKER parts. Also, the names of DataArrays correspond to names of channels. These adjustments allow better human readability and do not influence information or the model compatibility.
+
+Metadata are organized according to odML terminology. The G-Node odML scheme and terminology was used for the metadata part of file, but there was some more information in the metadata scheme used at UWB, which was difficult to save with existing odML terminology. Therefore the odML model and terminology were extended. We also decided that it would be useful to store some more data, which are more specific and could help to describe experiments better. The existing ontologies were also searched, for example Ontology for biomedical investigations \cite{Brinkman2010}. However, I decided to use odML because I was able to extend odML to perfectly fit our needs and it is already used by the NIX model.
+
+
+\subsection{HDFExport Program}
+\subsubsection {Analysis and Design}
+The file format is divided into the two autonomous parts DATA and METADATA, which relate to each other, but could be read or written separately. The both parts are stored in one HDF5 container.
+
+The data part stores all recorded binary data and the basic information about measuring for correct representation of measured data (Sampling interval, resolution and resolution unit). This section includes data from the eeg \ref{eeg}, vhdr \ref{vhdr} and vmrk \ref{vmrk} files. The file structure is defined by the NIX file model - (Figure~\ref{NIX_scheme}). I also use the same terminology and the file structure. However our model - EEGBase model was simplified for our needs. More specific description follows in Section~\ref{section_data}.
+
+Java was selected as a programming language for program developing, because there is already parser of Brain Vision formats developed and also the EEGBase portal is written in Java. There is effort to include the export program into the EEGBase portal for easy export.
+
+\subsubsection{Data Model}
+\label{section_data}
+The data model is based on the NIX data model (Figure~\ref{NIX_scheme} and Section~\ref{nixsection}). The NIX model is able to save data from any electrophysiology experiment. But for EEG experiments the NIX model is too general. So I used only necessary parts of the model and other sections were omitted. The omitted parts are in the NIX model optional, so my format is compatible with the NIX definition. My data model is described in Figure~\ref{format_scheme}. The data model uses the NIX scheme of Block, DataArray, MultiTag, DataTag and SimpleTag. The Block is used to divide measuring, DataArray stores raw data of signals and stimuli and MultiTag stores stimuli information and DataTag contains EEG channel information. DataArrays are divided for better distribution in my model to SIGNAL and MARKER parts. Also, the names of DataArrays correspond to names of channels. These adjustments allow better human readability and do not influence information or the model compatibility.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[scale=0.51]{obrazky/data.pdf}
+		\caption{The final data model of proposed data format. The data are stored in tree structure with fixed terminology and structure. Each Group MARKER and SIGNAL could contain zero or more DataArrays with raw data.}
+		\label{format_scheme}
+	\end{center}
+\end{figure}
+
+
+\subsection{Model Ontology}
+\subsubsection{Data Part}
+Ontology and terminology of the data part is based on the NIX model that is described above in Section~\ref{section_data} - Data model and in Figure~\ref{format_scheme}.
+
+\subsubsection{Metadata Part - odML}
+\label{odml_section}
+Metadata are organized according to odML terminology. The G-Node odML scheme and terminology was used for the metadata part of file, but there was some more information in the metadata scheme used at UWB, which was difficult to save with existing odML terminology. Therefore the odML model and terminology were extended. 
+The changes and adjustments are described in Section~\ref{meta_adjustments} (Metadata Terminology Extensions).
+
+ We also decided that it would be useful to store some more data, which are more specific and could help to describe experiments better. The existing ontologies were also searched, for example Ontology for biomedical investigations \cite{oen} \cite{Brinkman2010}. However, I decided to use odML because I was able to extend odML to perfectly fit our needs and it is already used by the NIX model.
+ 
+ \subsection{Metadata Terminology Extensions}
+ \label{meta_adjustments}
+ In order to save all our metadata into the HDF5 container I extended the odML model for our metadata. These modifications were committed to G-Node respective INCF GitHub repository \cite{odmlgithub}. New sections \textbf{Environment}, \textbf{Protocol} and \textbf{Software} and several attributes to the existing sections \textbf{Person} and \textbf{Electrode} were added. All suggested changes were included into odML.
+
+\subsection{HDFExport Program}
+The program is designed for several use cases divided by data and metadata location (Figure~\ref{use_case1}):
+\begin{itemize}
+	\item data and metadata export from locally stored Brain Vision files only
+	\item data and metadata export from locally stored Brain Vision files and metadata from EEGBase portal
+	\item data and basic metadata export from in EEGBase postal stored Brain Vision files without experiments metadata
+	\item data and metadata export from EEGBase portal and Brain Vision files stored in EEGBase portal
+\end{itemize}
+
+\begin{figure}
+	\includegraphics[scale=0.5]{obrazky/use_case_location.pdf}	
+	\caption{Use cases of HDFExport Program.}
+	\label{use_case1}
+\end{figure}
+Other division is by type of exported data (Figure~\ref{use_case2}):
+\begin{itemize}
+	\item Only raw EEG data and basic metadata are exported
+	
+	Only data and metadata from the Brain Vision files are exported. Stimuli are not exported (not all measurements uses stimuli).
+	\item Raw EEG data, basic metadata and stimuli are exported
+	
+	All data, metadata and stimuli from Brain Vision files are exported.
+	\item Raw EEG data, basic metadata, stimuli and experiments metadata are exported
+	
+	All data, metadata and stimuli from the Brain Vision files and experiments metadata from EEGBase portal are exported.
+	\item Raw EEG data, basic metadata and experiments information are exported
+	
+	All data, metadata and experiments information are exported.
+\end{itemize}
+\begin{figure}
+	\includegraphics[scale=0.5]{obrazky/use_case_data.pdf}	
+	\caption{Use cases of HDFExport Program.}
+	\label{use_case2}
+\end{figure}
+
+
+%\begin{figure*}
+%	\includegraphics[scale=0.73]{obrazky/ExportProgramDiagram.pdf}	
+%	\caption{The diagram of EEGBase HDF5 export program}
+%	\label{export-diagram}
+%\end{figure*}
+\section{Tests}
+
+The program was manually tested for several use cases and all created HDF5 files were verified manually (opened and the contents was checked) by official program of HDF Group HDFView \cite{hdfjava} in version 2.11. The following test describing writing speed into HDF5 container were conducted. (Table~\ref{speed_test}). The file sizes of created files were also tested. (Table~\ref{file_size}).
+
+\subsection{Performance Tests}
+
+The write performance tests were conducted to determine time consumption of export. The tests were conducted on a standard desktop computer (Intel Core i7 at 3,4 GHz, 8 GB of DDR3 RAM, standard HDD with 7200 rpm). An unusually high memory consumption was detected during the test. The amount of occupied memory by the EEGExport program for big (220 MB) measurements reached up to 4 GB of memory. Further testing showed that Java Virtual Machine, in attempt to speed up export, does not free allocated memory. However, if the program was paused the amount of allocated memory was lower; the program could run with less memory. In the end the disk writing speed was a limited factor. The conversion times with GZip compression are shown in Table~\ref{speed_test}.
+
+\begin{table}
+	\catcode`\-=12
+	\centering
+	\caption{Performance tests with GZip compression. Each file was saved seven times.}
+	\label{speed_test}
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		\textbf{File size} & \multicolumn{4}{c|}{\textbf{Time needed for conversion in ms}}\\ 
+		\cline{2-5}		
+		\textbf{ of Brain Vision files}	&\textbf{Best} & \textbf{Worst} & \textbf{Average} & \textbf{With compression}\\ 
+		\hline
+		\hline 21,3 MB & 3010 & 3501  & 3132& 7529 \\ 	
+		\hline 51,2 MB & 6160  & 7906 & 6700 & 26051\\ 
+		\hline 58 MB & 7668 &  8262 &  7947& 29032\\ 
+		\hline 87,2 MB & 31364 & 35957 & 32820& 44877\\ 
+		\hline 197,8 MB & 13060  & 14625 &  13502& 40168\\ 		
+		\hline 221,3 MB & 14589 & 16321 & 15197& 42679 \\ 
+		\hline 221,6 MB & 14347  & 16108 & 14871& 43586\\ 
+		\hline 
+	\end{tabular} 
+\end{table}
+
+
+\subsection{File Size Test}
+Several test were conducted to determine the resulting file size of the HDF5 container containing all data. Data from real experiments were used for the tests. The test shows that size of the HDF5 container is influenced by exported data and the original file size is not the only decisive factor. The size of the HDF5 container is always bigger then Brain Vision files, at worst case even four times bigger in the best scenario about two times bigger. The results are shown in Table~\ref{file_size}. The GZip compression was used to reduce file size. The GZip compression is integrated in HDF libraries and it is supported natively (reading of the data does not require any special actions). 
+
+\begin{table}[h]
+	\caption{File size tests.}
+	\label{file_size}
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline \textbf{File size}  & {\textbf{HDF5 file size}}& {\textbf{HDF5 file size}}  & \textbf{Ratio}	\\
+		\textbf{of Brain Vision files} & &  with compression &	\\ 
+		\hline 21,3 MB & 80,9 MB & 26,92 MB& 1,26x\\ 
+		\hline 51,2 MB & 194,2 MB & 112,98 MB & 2,21x\\
+		\hline 58 MB & 221,1 MB & 102,79 MB & 1,77x\\  
+		\hline 87,2 MB & 329,7 MB & 124,51 MB & 1,43x\\ 
+		\hline 197,8 MB & 370,9 MB & 305,19 MB& 1,54x\\ 		
+		\hline 221,3 MB & 414,9 MB & 355,58 MB & 1,61x\\ 
+		\hline 221,6 MB & 415,5 MB & 334,46 MB & 1,51x\\ 		
+		\hline 
+	\end{tabular} 
+\end{table}
+
+\begin{table}
+	\caption{File size dependency on compression chunk size.}
+	\label{chunk_size}
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline {\textbf{Original file size}}  & \multicolumn{4}{ c| }{\textbf{HDF5 file size in MB}}\\
+		& chunk 64 & chunk 256 & chunk 512 &  chunk 1024	\\ 
+		\hline 21,3 MB &  39,76  & 26,92 & 23,30 & 20,46\\ 	
+		\hline 51,2 MB & 155,47 & 112,98  & 99,31 & 87,85 \\ 
+		\hline 58 MB    & 151,31 & 102,79 & 88,60 & 77,96 \\ 
+		\hline 87,2 MB & 176,53  & 124,51 &  112,43& 104,15\\ 
+		\hline 197,8 MB & 365,63 & 305,19 & 292,59 & 285,48\\ 		
+		\hline 221,3 MB & 422,83  & 355,58& 341,72 & 333,83\\ 
+		\hline 221,6 MB & 402,81 & 334,46 & 320,22 & 312,10 \\ 
+		\hline 
+	\end{tabular} 
+\end{table}
+
+
+
+\section{Conclusion}
+We examined current file formats for storing electrophysiology data and data from experiments and measurements conducted at the University of West Bohemia. We became familiar with the data and metadata model of EEG measurements and its terminology. We examined the data and metadata model of EEGBase portal.
+
+We analyzed two early file standard proposals from INCF and I tracked progress in both. I found several currently used formats, which are using HDF as a container in neuroinformatics. I chose the most suitable format for our data and usage considering INCF recommendations.
+
+I created my own implementation of the chosen format. I chose HDF5 container for the EEGBase format. I joined the INCF Electrophysiology Data Sharing Task Force and contributed to the odML terminology. I developed a program that transforms raw data and metadata from Brain Vision files to the EEGBase format, and I also included metadata which are stored in the EEGBase portal. I tested my format and program for several use cases and its performance. 
+
+The proposed EEGBase format is capable of storing all currently saved data and metadata and is able to store the future changes and modifications of metadata model. The developed program saves measured data into the EEGBase format. I also made a few suggestions for the UWB model. The program is currently using web services of the EEGBase portal for metadata loading. The developed libraries allow export of raw data or data with metadata. Exporting experimental data and metadata in the EEGBase format to the HDF5 container improves sharing capabilities of the EEGBase portal and overall attractiveness of stored experiments. 
+
+
+
+
+
+% conference papers do not normally have an appendix
+
+
+
+
+
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+%\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+%\bibliography{IEEEabrv,../bib/paper}
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+
+\begin{thebibliography}{1}
+
+
+\bibitem{Poldrack2012}
+{\sc Poldrack}, R.~A.
+\newblock The future of {fMRI} in cognitive neuroscience.
+\newblock \emph{{NeuroImage}}. aug 2012, 62, 2, s.~1216--1220.
+\newblock \texttt{10.1016/j.neuroimage.2011.08.007}.
+\newblock Available from:
+$\texttt{{http://dx.doi.org/10.1016/j.neuroimage.2011.08.007}}$.
+
+\bibitem{Milham2012}
+{\sc Milham}, M.~P.
+\newblock Open Neuroscience Solutions for the Connectome-wide Association Era.
+\newblock \emph{Neuron}. jan 2012, 73, 2, s.~214--218.
+\newblock \texttt{10.1016/j.neuron.2011.11.004}.
+\newblock Available from:
+$\texttt{{http://dx.doi.org/10.1016/j.neuron.2011.11.004}}$.
+
+\bibitem{Poline2012}
+{\sc Poline}, J.-B. et~al.
+\newblock Data sharing in neuroimaging research.
+\newblock \emph{Frontiers in Neuroinformatics}. 2012, 6.
+\newblock \texttt{10.3389/fninf.2012.00009}.
+\newblock Available from:
+$\texttt{{http://dx.doi.org/10.3389/fninf.2012.00009}}$.
+
+\bibitem{incf_mission}
+{\sc Friedrich}, S. et~al.
+\newblock Mission and activities of the {INCF} Electrophysiology Data Sharing
+Task Force.
+\newblock \emph{Frontiers in Neuroinformatics}. 2014, 8.
+\newblock \texttt{10.3389/conf.fninf.2014.08.00088}.
+\newblock Available from:
+$\texttt{{http://dx.doi.org/10.3389/conf.fninf.2014.08.00088}}$.
+
+
+\bibitem{eegportal}
+\emph{EEGbase} [online]. 2015. [cit.~10.5.2015]. RRID:nif-0000-08190.
+\newblock Available from: $\texttt{{https://eegdatabase.kiv.zcu.cz/}}$.
+
+
+\bibitem{hdfjava}
+\emph{HDF Java Products} [online]. 2014. [cit.~1.5.2015]. HDF Group.
+\newblock Available from: $\texttt{{https://www.hdfgroup.org/products/java/}}$.
+
+
+
+\bibitem{odmlgithub}
+\emph{INCF GitHub odML repository} [online]. [cit.~12.5.2015].
+\newblock Available from:
+$\texttt{{https://github.com/INCF/odml-terminologies}}$.
+
+
+\bibitem{requirements}
+Requirements for storing electrophysiology data, Version 0.72.
+\newblock Available from: $\texttt{{https://goo.gl/QbClkE}}$.
+\newblock Electrophysiology Task Force of the INCF Program on Standards for
+Data Sharing, 2014.
+
+\bibitem{odmlarticle}
+{\sc Benda}, J.
+\newblock From recording to sharing of data - embedding metadata handling into
+the laboratory workflow using {odML}.
+\newblock \emph{Frontiers in Neuroinformatics}. 2011, 5.
+\newblock \texttt{10.3389/conf.fninf.2011.08.00100}.
+\newblock Available from:
+$\texttt{{http://dx.doi.org/10.3389/conf.fninf.2011.08.00100}}$.
+
+\bibitem{brainUserManual}
+Brain Products GmbH.
+\newblock \emph{BrainVision Recorder User Manual}.
+\newblock Brain Products GmbH, 011 edition, December 2014.
+
+\bibitem{brainvision}
+\emph{Brain Products GmbH} [online]. 2014. [cit.~03.07.2014].
+Brain Products GmbH.
+\newblock Available from: $\texttt{{http://www.brainproducts.com/index.php}}$.
+
+
+
+\bibitem{Brinkman2010}
+{\sc Brinkman}, R.~R. et~al.
+\newblock Modeling biomedical experimental processes with {OBI}.
+\newblock \emph{Journal of Biomedical Semantics}. 2010, 1, Suppl 1, s.~S7.
+\newblock \texttt{10.1186/2041-1480-1-s1-s7}.
+\newblock Available from:
+$\texttt{{http://dx.doi.org/10.1186/2041-1480-1-S1-S7}}$.
+
+
+
+\bibitem{incf_mission}
+{\sc Friedrich}, S. et~al.
+\newblock Mission and activities of the {INCF} Electrophysiology Data Sharing
+Task Force.
+\newblock \emph{Frontiers in Neuroinformatics}. 2014, 8.
+\newblock \texttt{10.3389/conf.fninf.2014.08.00088}.
+\newblock Available from:
+$\texttt{{http://dx.doi.org/10.3389/conf.fninf.2014.08.00088}}$.
+
+
+
+\bibitem{odml}
+{\sc Grewe}, J. -- {\sc Wachtler}, T. -- {\sc Benda}, J.
+\newblock A Bottom-up Approach to Data Annotation in Neurophysiology.
+\newblock \emph{Frontiers in Neuroinformatics}. 2011, 5.
+\newblock \texttt{10.3389/fninf.2011.00016}.
+\newblock Available from:
+$\texttt{{http://dx.doi.org/10.3389/fninf.2011.00016}}$.
+
+\bibitem{hdf}
+\emph{HDF Technologies} [online]. 2013. [cit.~03.07.2014]. The HDF Group.
+\newblock Available from: $\texttt{{http://www.hdfgroup.org/}}$.
+
+\bibitem{incfweb}
+\emph{INCF} [online]. 2015. [cit.~4.3.2015].
+\newblock Available from: $\texttt{{http://www.incf.org/}}$.
+
+%\bibitem{ephdf}
+%{\sc Jeffrey}, T. -- {\sc Friedrich}, S.
+%\newblock {epHDF} {\textendash} a proposed standard for storing
+%electrophysiology data in {HDF}5.
+%\newblock \emph{Frontiers in Neuroinformatics}. 2013, 7.
+%\newblock \texttt{10.3389/conf.fninf.2013.09.00068}.
+%\newblock Available from:
+%$\texttt{{http://dx.doi.org/10.3389/conf.fninf.2013.09.00068}}$.
+
+
+
+\bibitem{kemp2003}
+{\sc Kemp}, B. -- {\sc Olivan}, J.
+\newblock European data format `plus' (EDF+), an {EDF} alike standard format
+for the exchange of physiological data.
+\newblock \emph{Clinical Neurophysiology}. sep 2003, 114, 9, s.~1755--1761.
+\newblock \texttt{10.1016/s1388-2457(03)00123-8}.
+\newblock Available from:
+$\texttt{{http://dx.doi.org/10.1016/S1388-2457(03)00123-8}}$.
+
+
+
+
+\bibitem{Milham2012}
+{\sc Milham}, M.~P.
+\newblock Open Neuroscience Solutions for the Connectome-wide Association Era.
+\newblock \emph{Neuron}. jan 2012, 73, 2, s.~214--218.
+\newblock \texttt{10.1016/j.neuron.2011.11.004}.
+\newblock Available from:
+$\texttt{{http://dx.doi.org/10.1016/j.neuron.2011.11.004}}$.
+
+\bibitem{neo}
+\emph{Neo} [online]. 2014. [cit.~03.07.2014].
+\newblock Available from: $\texttt{{http://pythonhosted.org/neo/}}$.
+
+\bibitem{neurohdf}
+\emph{NeuroHDF} [online]. 2014. [cit.~03.07.2014]. NeuroHDF Interest Group.
+\newblock Available from: $\texttt{{https://neurohdf.readthedocs.org/}}$.
+
+\bibitem{nexus}
+\emph{NeXus Format} [online]. 2014. [cit.~03.07.2014]. NeXus International
+Advisory Committee.
+\newblock Available from: $\texttt{{http://www.nexusformat.org/}}$.
+
+
+
+
+\bibitem{Poldrack2012}
+{\sc Poldrack}, R.~A.
+\newblock The future of {fMRI} in cognitive neuroscience.
+\newblock \emph{{NeuroImage}}. aug 2012, 62, 2, s.~1216--1220.
+\newblock \texttt{10.1016/j.neuroimage.2011.08.007}.
+\newblock Available from:
+$\texttt{{http://dx.doi.org/10.1016/j.neuroimage.2011.08.007}}$.
+
+
+
+\bibitem{pandora}
+\emph{NIX} [online]. 2014. [cit.~03.02.2015]. G-Node.
+\newblock Available from: $\texttt{{https://github.com/G-Node/nix/wiki}}$.
+
+\bibitem{ovation}
+\emph{Ovation} [online]. 2014. [cit.~3.7.2014]. Physion LLC.
+\newblock Available from: $\texttt{{http://physion.us/}}$.
+
+
+\bibitem{oen}
+\emph{The Open Biological and Biomedical Ontologies} [online]. 2015.
+[cit.~10.5.2015].
+\newblock Available from: $\texttt{{http://www.obofoundry.org/}}$.
+\end{thebibliography}
+
+
+
+
+% that's all folks
+\end{document}
+
+

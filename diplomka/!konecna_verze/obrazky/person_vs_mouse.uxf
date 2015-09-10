@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>10</x>
+      <y>30</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Recording
+
+--
+-	Comment	:	string
+-	Experimenter	:	person
+-	ExperimenterID	:	person
+-	Start	:	datetime
+-	End	:	datetime
+-	StartDate	:	date
+-	EndDate	:	date
+-	StartTime	:	time
+-	EndTime	:	time
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>250</x>
+      <y>30</y>
+      <w>150</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Subject
+--
+-	Comment	:	text
+-	Species	:	string
+-	Genus	:	string
+-	TrivialName	:	string
+-	Gender	:	string
+-	Birthday	:	date
+-	Age	:	string
+-	Strain	:	string
+-	CellLine	:	string
+-	Population	:	string
+-	Label	:	string
+-	HealthStatus	:	string
+-	DevelopmentalStage	:	string
+-	ConactInformation	:	text
+-	Size	:	float
+-	Weight	:	float
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>430</x>
+      <y>30</y>
+      <w>160</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Person
+
+--
+-	FirstName	:	string
+-	LastName	:	string
+-	FullName	:	person
+-	Gender	:	string
+-	Birthday	:	date
+-	Role	:	string
+-	E-mail	:	string
+-	PhoneNumber	:	string
+-Laterality:		string
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>30</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>30</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>10</x>
+      <y>260</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Recording
+
+--
+-	Comment	:	string
+-	Experimenter	:	person
+-	ExperimenterID	:	person
+-	Start	:	datetime
+-	End	:	datetime
+-	StartDate	:	date
+-	EndDate	:	date
+-	StartTime	:	time
+-	EndTime	:	time
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>250</x>
+      <y>260</y>
+      <w>150</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Subject
+--
+-	Comment	:	text
+-	Species	:	string
+-	Genus	:	string
+-	TrivialName	:	string
+-	Gender	:	string
+-	Birthday	:	date
+-	Age	:	string
+-	Strain	:	string
+-	CellLine	:	string
+-	Population	:	string
+-	Label	:	string
+-	HealthStatus	:	string
+-	DevelopmentalStage	:	string
+-	ConactInformation	:	text
+-	Size	:	float
+-	Weight	:	float
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>260</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>10</x>
+      <y>0</y>
+      <w>210</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Measurement of a person</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>10</x>
+      <y>230</y>
+      <w>210</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Measurement of a mouse</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

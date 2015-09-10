@@ -1,0 +1,21 @@
+\select@language {czech}
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Overview of data types required by Requirements for storing electrophysiology data, Version 0.72. \cite {requirements}\relax }}{13}{table.caption.7}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces The current formats comparison.\relax }}{30}{table.caption.15}
+\contentsline {table}{\numberline {3.2}{\ignorespaces The comparison between the EEGBase portal metadata model and terminology used by the odML model (without my adjustments).}}{33}{table.3.2}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Modifications of the \gls {odml} model.}}{35}{table.3.3}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces The root of \gls {hdf5} file.\relax }}{46}{table.caption.25}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Performance tests with GZip compression. Each file was saved seven times.\relax }}{52}{table.caption.30}
+\contentsline {table}{\numberline {5.2}{\ignorespaces File size tests.\relax }}{53}{table.caption.31}
+\contentsline {table}{\numberline {5.3}{\ignorespaces File size dependency on compression chunk size.\relax }}{54}{table.caption.32}
+\contentsline {table}{\numberline {5.4}{\ignorespaces File size dependency on compression method. The chunk size is 256.\relax }}{54}{table.caption.33}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

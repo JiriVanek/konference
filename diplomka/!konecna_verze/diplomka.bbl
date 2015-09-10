@@ -1,0 +1,293 @@
+\begin{thebibliography}{47}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[bfo(2014)]{bfo}
+\emph{Basic Formal Ontology} [online]. 2014. [cit.~10.5.2015].
+\newblock Available from: $\texttt{{http://ifomis.uni-saarland.de/bfo/}}$.
+
+\bibitem[eeg(2015)]{eegportal}
+\emph{EEGbase} [online]. 2015. [cit.~10.5.2015]. RRID:nif-0000-08190.
+\newblock Available from: $\texttt{{https://eegdatabase.kiv.zcu.cz/}}$.
+
+\bibitem[hdf()]{hdf_object}
+\emph{HDF Object Package} [online]. [cit.~1.5.2015]. HDF Group.
+\newblock Available from:
+  $\texttt{{https://www.hdfgroup.org/products/java/hdf-object/index.html}}$.
+
+\bibitem[hdf(2014)]{hdfjava}
+\emph{HDF Java Products} [online]. 2014. [cit.~1.5.2015]. HDF Group.
+\newblock Available from: $\texttt{{https://www.hdfgroup.org/products/java/}}$.
+
+\bibitem[iso(2005)]{iso8601}
+ČSN ISO 8601. \textit{Data elements and interchange formats – Information
+  interchange – Representation of dates and times.} Praha: ČESKÝ
+  NORMALIZAČNÍ INSTITUT, 2005.
+
+\bibitem[nem(2015)]{nemo}
+\emph{Neural ElectroMagnetic Ontology} [online]. 2015. 15.5.2015.
+\newblock Available from:
+  $\texttt{{http://bioportal.bioontology.org/ontologies/NEMO/?p=summary}}$.
+
+\bibitem[neu(2011)]{neuroshare}
+\emph{Open data specifications and software for neurophysiology} [online].
+  2011. [cit.~10.5.2015].
+\newblock Available from: $\texttt{{http://neuroshare.sourceforge.net/}}$.
+
+\bibitem[nif(2015)]{nifstd}
+\emph{Neuroscience Information Framework Standard ontology} [online]. 2015.
+  [cit.~10.5.2015].
+\newblock Available from:
+  $\texttt{{http://bioportal.bioontology.org/ontologies/NIFSTD}}$.
+
+\bibitem[odm()]{odmlgithub}
+\emph{INCF GitHub odML repository} [online]. [cit.~12.5.2015].
+\newblock Available from:
+  $\texttt{{https://github.com/INCF/odml-terminologies}}$.
+
+\bibitem[oen(2015)]{oen}
+\emph{The Open Biological and Biomedical Ontologies} [online]. 2015.
+  [cit.~10.5.2015].
+\newblock Available from: $\texttt{{http://www.obofoundry.org/}}$.
+
+\bibitem[req(2014)]{requirements}
+Requirements for storing electrophysiology data, Version 0.72.
+\newblock Available from: $\texttt{{https://goo.gl/QbClkE}}$.
+\newblock Electrophysiology Task Force of the INCF Program on Standards for
+  Data Sharing, 2014.
+
+\bibitem[Benda(2011)]{odmlarticle}
+{\sc Benda}, J.
+\newblock From recording to sharing of data - embedding metadata handling into
+  the laboratory workflow using {odML}.
+\newblock \emph{Frontiers in Neuroinformatics}. 2011, 5.
+\newblock \texttt{10.3389/conf.fninf.2011.08.00100}.
+\newblock Available from:
+  $\texttt{{http://dx.doi.org/10.3389/conf.fninf.2011.08.00100}}$.
+
+\bibitem[Brain Products GmbH({\natexlab{a}})]{brainUserManual}
+Brain Products GmbH.
+\newblock \emph{BrainVision Recorder User Manual}.
+\newblock Brain Products GmbH, 011 edition, December 2014{\natexlab{a}}.
+
+\bibitem[Brain Products GmbH({\natexlab{b}})]{brainvision}
+\emph{Brain Products GmbH} [online]. 2014{\natexlab{b}}. [cit.~03.07.2014].
+  Brain Products GmbH.
+\newblock Available from: $\texttt{{http://www.brainproducts.com/index.php}}$.
+
+\bibitem[Brůha()]{bruha}
+{\sc Brůha}, P.
+\newblock Semantic Web and Classic Data Structures.
+
+\bibitem[Brinkman et~al.(2010)Brinkman, Courtot, Derom, Fostel, He, Lord,
+  Malone, Parkinson, Peters, Rocca-Serra, Ruttenberg, Sansone, Soldatova,
+  Stoeckert, Turner,, Zheng]{Brinkman2010}
+{\sc Brinkman}, R.~R. et~al.
+\newblock Modeling biomedical experimental processes with {OBI}.
+\newblock \emph{Journal of Biomedical Semantics}. 2010, 1, Suppl 1, s.~S7.
+\newblock \texttt{10.1186/2041-1480-1-s1-s7}.
+\newblock Available from:
+  $\texttt{{http://dx.doi.org/10.1186/2041-1480-1-S1-S7}}$.
+
+\bibitem[cno()]{cno}
+\emph{Computational Neuroscience Ontology} [online]. 2013. [cit.~13.6.2015].
+\newblock Available from:
+  $\texttt{{http://bioportal.bioontology.org/ontologies/CNO}}$.
+
+\bibitem[Franc(2012)]{ontology}
+{\sc Franc}, Y.~L.
+\newblock \emph{Introduction to CNO} [online]. 2012. [cit.~15.5.2015].
+\newblock Available from:
+  $\texttt{{https://neuroml.org/files/NeuroML2012/YleFranc\_CNO.pdf}}$.
+
+\bibitem[Friedrich et~al.(2014)Friedrich, Thomas, Andrew, Michael, Jeffrey,
+  Sonja, Kenneth, Colin, Marja-Leena, Bengt, John, Roman, Hyrum, Gordon,
+  Leslie, Jeff,, Shiro]{incf_mission}
+{\sc Friedrich}, S. et~al.
+\newblock Mission and activities of the {INCF} Electrophysiology Data Sharing
+  Task Force.
+\newblock \emph{Frontiers in Neuroinformatics}. 2014, 8.
+\newblock \texttt{10.3389/conf.fninf.2014.08.00088}.
+\newblock Available from:
+  $\texttt{{http://dx.doi.org/10.3389/conf.fninf.2014.08.00088}}$.
+
+\bibitem[Gosink et~al.(2006)Gosink, Shalf, Stockinger, Wu,, Bethel]{hdffast}
+{\sc Gosink}, L. et~al.
+\newblock {HDF}5-{FastQuery}: Accelerating Complex Queries on {HDF} Datasets
+  using Fast Bitmap Indices.
+\newblock In \emph{18th International Conference on Scientific and Statistical
+  Database Management}. Institute of Electrical {\&} Electronics Engineers
+  ({IEEE}), 2006.
+\newblock \texttt{10.1109/ssdbm.2006.27}.
+\newblock Available from: $\texttt{{http://dx.doi.org/10.1109/SSDBM.2006.27}}$.
+
+\bibitem[Grewe et~al.(2011)Grewe, Wachtler,, Benda]{odml}
+{\sc Grewe}, J. -- {\sc Wachtler}, T. -- {\sc Benda}, J.
+\newblock A Bottom-up Approach to Data Annotation in Neurophysiology.
+\newblock \emph{Frontiers in Neuroinformatics}. 2011, 5.
+\newblock \texttt{10.3389/fninf.2011.00016}.
+\newblock Available from:
+  $\texttt{{http://dx.doi.org/10.3389/fninf.2011.00016}}$.
+
+\bibitem[HDF Group()]{hdf}
+\emph{HDF Technologies} [online]. 2013. [cit.~03.07.2014]. The HDF Group.
+\newblock Available from: $\texttt{{http://www.hdfgroup.org/}}$.
+
+\bibitem[incf()]{incfweb}
+\emph{INCF} [online]. 2015. [cit.~4.3.2015].
+\newblock Available from: $\texttt{{http://www.incf.org/}}$.
+
+\bibitem[Jeffrey -- Friedrich(2013)Jeffrey, Friedrich]{ephdf}
+{\sc Jeffrey}, T. -- {\sc Friedrich}, S.
+\newblock {epHDF} {\textendash} a proposed standard for storing
+  electrophysiology data in {HDF}5.
+\newblock \emph{Frontiers in Neuroinformatics}. 2013, 7.
+\newblock \texttt{10.3389/conf.fninf.2013.09.00068}.
+\newblock Available from:
+  $\texttt{{http://dx.doi.org/10.3389/conf.fninf.2013.09.00068}}$.
+
+\bibitem[Jeffrey et~al.(2013)Jeffrey, Jan, Andrew, Stephen, Stephan, Richard,
+  Jan, Kenneth, Tom, Roman, Robert, Hyrum, Leslie, Andrey, Friedrich, Adrian,,
+  Thomas]{hdf5standard}
+{\sc Jeffrey}, T. et~al.
+\newblock Considerations for developing a standard for storing
+  electrophysiology data in {HDF}5.
+\newblock \emph{Frontiers in Neuroinformatics}. 2013, 7.
+\newblock \texttt{10.3389/conf.fninf.2013.09.00069}.
+\newblock Available from:
+  $\texttt{{http://dx.doi.org/10.3389/conf.fninf.2013.09.00069}}$.
+
+\bibitem[Kemp(2014)]{edf}
+{\sc Kemp}, B.
+\newblock  [online]. 2014. [cit.~4.5.2015].
+\newblock Available from: $\texttt{{http://www.edfplus.info/specs/edf.html}}$.
+
+\bibitem[Kemp -- Olivan(2003)Kemp, Olivan]{kemp2003}
+{\sc Kemp}, B. -- {\sc Olivan}, J.
+\newblock European data format `plus' (EDF+), an {EDF} alike standard format
+  for the exchange of physiological data.
+\newblock \emph{Clinical Neurophysiology}. sep 2003, 114, 9, s.~1755--1761.
+\newblock \texttt{10.1016/s1388-2457(03)00123-8}.
+\newblock Available from:
+  $\texttt{{http://dx.doi.org/10.1016/S1388-2457(03)00123-8}}$.
+
+\bibitem[Liu et~al.(2006)Liu, Ding,, He]{mrieeg}
+{\sc Liu}, Z. -- {\sc Ding}, L. -- {\sc He}, B.
+\newblock Integration of EEG/MEG with MRI and fMRI in Functional Neuroimaging.
+\newblock \emph{IEEE engineering in medicine and biology magazine : the
+  quarterly magazine of the Engineering in Medicine and Biology Society}. 2006,
+  25.
+\newblock ISSN 0739-5175.
+
+\bibitem[Luck(2015)]{erpinfo}
+{\sc Luck}, S.
+\newblock \emph{ERPinfo.org} [online]. 2015. [cit.~22.3.2015].
+\newblock Available from: $\texttt{{http://erpinfo.org/what-is-an-erp}}$.
+
+\bibitem[Miko(2012)]{jerpa}
+{\sc Miko}, P.
+\newblock \emph{EDEDClient} [online]. 2012. [cit.~9.1.2015].
+\newblock Available from:
+  $\texttt{{https://github.com/stebjan/jerpa-EDEDClient}}$.
+
+\bibitem[Milham(2012)]{Milham2012}
+{\sc Milham}, M.~P.
+\newblock Open Neuroscience Solutions for the Connectome-wide Association Era.
+\newblock \emph{Neuron}. jan 2012, 73, 2, s.~214--218.
+\newblock \texttt{10.1016/j.neuron.2011.11.004}.
+\newblock Available from:
+  $\texttt{{http://dx.doi.org/10.1016/j.neuron.2011.11.004}}$.
+
+\bibitem[Neo()]{neo}
+\emph{Neo} [online]. 2014. [cit.~03.07.2014].
+\newblock Available from: $\texttt{{http://pythonhosted.org/neo/}}$.
+
+\bibitem[NeuroHDF()]{neurohdf}
+\emph{NeuroHDF} [online]. 2014. [cit.~03.07.2014]. NeuroHDF Interest Group.
+\newblock Available from: $\texttt{{https://neurohdf.readthedocs.org/}}$.
+
+\bibitem[Nexus()]{nexus}
+\emph{NeXus Format} [online]. 2014. [cit.~03.07.2014]. NeXus International
+  Advisory Committee.
+\newblock Available from: $\texttt{{http://www.nexusformat.org/}}$.
+
+\bibitem[obi()]{obi}
+\emph{Ontology for Biomedical Investigations} [online]. 2015. [cit.~13.6.2015].
+\newblock Available from:
+  $\texttt{{http://bioportal.bioontology.org/ontologies/OBI}}$.
+
+\bibitem[ovation({\natexlab{a}})]{ovation}
+\emph{Ovation} [online]. 2014{\natexlab{a}}. [cit.~3.7.2014]. Physion LLC.
+\newblock Available from: $\texttt{{http://physion.us/}}$.
+
+\bibitem[ovation({\natexlab{b}})]{ovation2}
+\emph{Ovation} [online]. 2014{\natexlab{b}}. [cit.~3.7.2014]. Physion LLC.
+\newblock Available from: $\texttt{{http://ovation.io/}}$.
+
+\bibitem[Pandora({\natexlab{a}})]{pandora}
+\emph{NIX} [online]. 2014{\natexlab{a}}. [cit.~03.02.2015]. G-Node.
+\newblock Available from: $\texttt{{https://github.com/G-Node/nix/wiki}}$.
+
+\bibitem[Pandora({\natexlab{b}})]{pandora2}
+\emph{NIX} [online]. 2014{\natexlab{b}}. [cit.~03.02.2015]. G-Node.
+\newblock Available from:
+  $\texttt{{https://github.com/G-Node/nix/wiki/Implementation-in-HDF5}}$.
+
+\bibitem[Phy()]{ovation_m}
+\emph{Ovation Scientific Data Management System}.
+\newblock Physion Consulting.
+\newblock 2012. Release 1.4.
+
+\bibitem[Poldrack(2012)]{Poldrack2012}
+{\sc Poldrack}, R.~A.
+\newblock The future of {fMRI} in cognitive neuroscience.
+\newblock \emph{{NeuroImage}}. aug 2012, 62, 2, s.~1216--1220.
+\newblock \texttt{10.1016/j.neuroimage.2011.08.007}.
+\newblock Available from:
+  $\texttt{{http://dx.doi.org/10.1016/j.neuroimage.2011.08.007}}$.
+
+\bibitem[Poline et~al.(2012)Poline, Breeze, Ghosh, Gorgolewski, Halchenko,
+  Hanke, Haselgrove, Helmer, Keator, Marcus, Poldrack, Schwartz, Ashburner,,
+  Kennedy]{neuroinf}
+{\sc Poline}, J.-B. et~al.
+\newblock Data sharing in neuroimaging research.
+\newblock \emph{Frontiers in Neuroinformatics}. 2012, 6.
+\newblock \texttt{10.3389/fninf.2012.00009}.
+\newblock Available from:
+  $\texttt{{http://dx.doi.org/10.3389/fninf.2012.00009}}$.
+
+\bibitem[Schalk(2009)]{BCI2000}
+{\sc Schalk}, G.
+\newblock \emph{BCI2000} [online]. 2009. [cit.~25.11.2014]. [rev. 2009-8-14].
+\newblock Available from: $\texttt{{www.bci2000.org}}$.
+
+\bibitem[Smith et~al.(2005)Smith, Ceusters, Klagges, K\"{o}hler, Kumar, Lomax,
+  Mungall, Neuhaus, Rector,, Rosse]{smith2005}
+{\sc Smith}, B. et~al.
+\newblock \emph{Genome Biol}. 2005, 6, 5, s.~R46.
+\newblock \texttt{10.1186/gb-2005-6-5-r46}.
+\newblock Available from:
+  $\texttt{{http://dx.doi.org/10.1186/gb-2005-6-5-r46}}$.
+
+\bibitem[Štěbeták(2015{\natexlab{a}})]{webservice}
+{\sc Štěbeták}, J.
+\newblock \emph{EEGBase SOAP webservices} [online]. 2015{\natexlab{a}}.
+  [cit.~10.5.2015].
+\newblock Available from: $\texttt{{http://eeg2.kiv.zcu.cz:8080/webservice/}}$.
+
+\bibitem[Štěbeták(2015{\natexlab{b}})]{wsdl}
+{\sc Štěbeták}, J.
+\newblock \emph{Webservice WSDL file} [online]. 2015{\natexlab{b}}.
+  [cit.~10.5.2015].
+\newblock Available from:
+  $\texttt{{http://eeg2.kiv.zcu.cz:8080/webservice/UserDataService?wsdl}}$.
+
+\bibitem[Štebeták(2015)]{eegloader}
+{\sc Štebeták}, J.
+\newblock \emph{EEGloader 2.0} [online]. 2015. [cit.~10.5.2015].
+\newblock Available from: $\texttt{{https://github.com/stebjan/eegloader}}$.
+
+\end{thebibliography}

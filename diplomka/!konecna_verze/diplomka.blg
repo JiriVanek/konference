@@ -1,0 +1,30 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: diplomka.aux
+A level-1 auxiliary file: chapter/acronyms.aux
+A level-1 auxiliary file: chapter/abstract_cz.aux
+A level-1 auxiliary file: chapter/abstract_en.aux
+A level-1 auxiliary file: chapter/introduction.aux
+A level-1 auxiliary file: chapter/stateofart.aux
+A level-1 auxiliary file: chapter/practical.aux
+A level-1 auxiliary file: chapter/summary.aux
+The style file: csplainnat.bst
+Database file #1: diplomka.bib
+Warning--entry type for "bruha" isn't style-file defined
+--line 26 of file diplomka.bib
+Warning--I'm ignoring requirements's extra "note" field
+--line 399 of file diplomka.bib
+Warning--to sort, need author or key in requirements
+Warning--to sort, need author or key in neuroshare
+Warning--to sort, need author or key in nemo
+Warning--to sort, need author or key in oen
+Warning--to sort, need author or key in nifstd
+Warning--to sort, need author or key in bfo
+Warning--to sort, need author or key in eegportal
+Warning--to sort, need author or key in odmlgithub
+Warning--to sort, need author or key in hdfjava
+Warning--to sort, need author or key in hdf_object
+Warning--to sort, need author or key in iso8601
+Warning--empty author in requirements
+Warning--empty year in bruha
+Warning--empty year in ovation_m
+Warning--empty title in smith2005
+(There were 17 warnings)

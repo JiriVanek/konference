@@ -1,0 +1,41 @@
+\select@language {czech}
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The original 10-20 international system - internationally recognized method to describe and apply the location of scalp electrodes in the context of an EEG test or experiment. \cite {BCI2000}\relax }}{10}{figure.caption.5}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Stages of Electronic Data Capture. \cite {neuroinf}\relax }}{11}{figure.caption.6}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ovation work model - Researchers upload their data into Ovation portal and describe them. Then they could work with data with existing analyze tools or work directly with project with linked version-controlled data. \cite {ovation2}\relax }}{14}{figure.caption.8}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces NIX data scheme. \cite {pandora}\relax }}{17}{figure.caption.9}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Software used for EEG recording at University of West Bohemia - BrainVision Recorder. \cite {brainvision}\relax }}{21}{figure.caption.10}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Detailed descriptions of some of the data challenges facing HDF adopters. \cite {hdf}\relax }}{22}{figure.caption.11}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Comparison of compression performance in tests with HDF4. Size of compressed output with Szip in HDF4. The test were conducted with HDF4 format, but the compression algorithms are the same in HDF5.\relax }}{23}{figure.caption.12}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Ontology model. \cite {ontology}\relax }}{24}{figure.caption.13}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Open metadata Markup Language Entity-Relation diagram. \cite {odml}\relax }}{27}{figure.caption.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The final data model of proposed data format. The data are stored in tree structure with fixed terminology and structure. Each Group MARKER and SIGNAL could contain zero or more DataArrays with raw data.\relax }}{31}{figure.caption.16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The comparison of metadata sections for saving experiments with a person or a mouse.\relax }}{37}{figure.caption.17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Use cases of HDFExport Program.\relax }}{39}{figure.caption.18}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Use cases of HDFExport Program.\relax }}{40}{figure.caption.19}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The diagram of EEGBase HDF5 export program\relax }}{40}{figure.caption.20}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The HDF Object Package. \cite {hdf_object}\relax }}{42}{figure.caption.21}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Application view of a dataset. \cite {hdf}\relax }}{43}{figure.caption.22}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Example of HDF5 file with EEGBase format in HDFView 2.11- the Dataset with name T6 (EEG channel) with Dataspace (array of 1414260 double numbers) and four attributes.\relax }}{44}{figure.caption.23}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Datatypes, dataspaces, and datasets. \cite {hdf}\relax }}{45}{figure.caption.24}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Example of HDF5 file with EEGBase format in HDFView 2.11- the DATA section.\relax }}{46}{figure.caption.26}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Class diagram of edited EEGDataTransformer program. New methods and classes are marked.\relax }}{47}{figure.caption.27}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces HDF5 file with data with EEGBase format - in HDFView 2.11\relax }}{49}{figure.caption.28}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces EEGBase HDF5 export program. Metadata are loaded trough web services.\relax }}{51}{figure.caption.29}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces The \gls {odml}terminology. Part 1.\relax }}{69}{figure.caption.42}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces The \gls {odml}terminology. Part 2.\relax }}{69}{figure.caption.42}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces The \gls {odml}terminology. Part 3.\relax }}{70}{figure.caption.43}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces The \gls {odml}terminology. Part 4.\relax }}{71}{figure.caption.44}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Metadata scheme of EEGBase format.\relax }}{72}{figure.caption.45}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces The EEGExport program GUI\relax }}{74}{figure.caption.46}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces The EEGExport program GUI\relax }}{75}{figure.caption.47}

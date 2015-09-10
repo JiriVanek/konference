@@ -1,0 +1,14 @@
+\chapter {Evaluation and Summary}
+
+This thesis assignment was fulfilled. I examined current file formats for storing electrophysiology data and data from experiments and measurements conducted at the University of West Bohemia. I became familiar with the data and metadata model of \gls{eeg} measurements and its terminology. I examined the data and metadata model of EEGBase portal.
+
+Within my master thesis I analyzed two early file standard proposals from \gls{incf} and I tracked progress in both. I found several currently used formats, which are using \gls{hdf} as a container in neuroinformatics. I chose the most suitable format for our data and usage considering the \gls{incf} recommendations.
+ 
+I created my own implementation of the chosen format. I chose \gls{hdf5} container for the EEGBase format. I joined the \gls{incf} Electrophysiology Data Sharing Task Force and contributed to the \gls{odml} terminology and ontology. I developed a program that transforms raw data and metadata from Brain Vision files to the EEGBase format, and I also included metadata which are stored in the EEGBase portal. I tested my format and program for several use cases and its performance. 
+
+The proposed EEGBase format is capable of storing all currently saved data and metadata and is able to save the future changes and modifications of metadata model. The developed program saves measured data into the EEGBase format. I also made a few suggestions for the \gls{uwb} model. The program is currently using web services of the EEGBase portal for metadata loading. The developed libraries allow export of raw data or data with metadata. Also the GZip and the SZip compressions are included in the code, but the \gls{gui} offers only GZip compression (for tested data it had better compression results). Exporting experimental data and metadata in the EEGBase format to the \gls{hdf5} container improves sharing capabilities of the EEGBase portal and overall attractiveness of stored experiments. 
+The next extension of the program could be loading and exporting files directly from the EEGBase portal trough web services. The \gls{gui} of EEGBase HDF5 export program could be improved to offer better selection of export options. 
+
+ 
+
+

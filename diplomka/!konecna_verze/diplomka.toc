@@ -1,0 +1,69 @@
+\select@language {czech}
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{8}{chapter.1}
+\contentsline {chapter}{\numberline {2}State of the Art}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}\gls {eeg}}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Data Sharing}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}Program on Standards for Data Sharing}{11}{section.2.3}
+\contentsline {section}{\numberline {2.4}Present formats for Storing \gls {eeg} Data}{12}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Ovation}{12}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}European Data Format}{14}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}NeXus Format}{15}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}NEO}{15}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}NeuroHDF}{16}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}NIX}{16}{subsection.2.4.6}
+\contentsline {subsection}{\numberline {2.4.7}epHDF}{18}{subsection.2.4.7}
+\contentsline {subsection}{\numberline {2.4.8}Brain Vision Format}{19}{subsection.2.4.8}
+\contentsline {section}{\numberline {2.5}Hierarchical Data Format}{20}{section.2.5}
+\contentsline {section}{\numberline {2.6}Ontologies}{24}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Neural ElectroMagnetic Ontology}{24}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Gene Ontology}{25}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Phenotype And Trait Ontology}{25}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}The Open Biomedical Ontologies Foundry}{25}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2.6.5}OBO Relations Ontology}{25}{subsection.2.6.5}
+\contentsline {subsection}{\numberline {2.6.6}NIFSTD}{25}{subsection.2.6.6}
+\contentsline {subsection}{\numberline {2.6.7}Basic Formal Ontology}{26}{subsection.2.6.7}
+\contentsline {subsection}{\numberline {2.6.8}Computational Neuroscience Ontology}{26}{subsection.2.6.8}
+\contentsline {subsection}{\numberline {2.6.9}Ontology for Biomedical Investigations}{26}{subsection.2.6.9}
+\contentsline {section}{\numberline {2.7}Open Metadata Markup Language}{26}{section.2.7}
+\contentsline {chapter}{\numberline {3}Analysis and Design}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}Current Formats Comparison}{29}{section.3.1}
+\contentsline {section}{\numberline {3.2}Data Model}{31}{section.3.2}
+\contentsline {section}{\numberline {3.3}Model Ontology}{32}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Data Part}{32}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Metadata Part - odML}{32}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}UWB Metadata Model}{32}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}NIX Metadata Model}{34}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Metadata Terminology Extensions}{35}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}EEGBase Metadata Model}{37}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}HDFExport Program}{38}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Program Specification}{38}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Architecture}{39}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}Implementation}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}HDF Libraries}{41}{section.4.1}
+\contentsline {section}{\numberline {4.2}Used HDF5 Data Types}{44}{section.4.2}
+\contentsline {section}{\numberline {4.3}EEGBase File Structure}{45}{section.4.3}
+\contentsline {section}{\numberline {4.4}HDFExport Program Modules}{46}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Brain Vision Files Parser}{46}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Metadata Loader}{48}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}HDF5 Writer}{48}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Graphical User Interface}{50}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}EEGBase Portal Integration}{50}{section.4.5}
+\contentsline {chapter}{\numberline {5}Tests}{52}{chapter.5}
+\contentsline {section}{\numberline {5.1}Performance Tests}{52}{section.5.1}
+\contentsline {section}{\numberline {5.2}File Size Test}{53}{section.5.2}
+\contentsline {chapter}{\numberline {6}Evaluation and Summary}{55}{chapter.6}
+\contentsline {chapter}{List of Figures}{56}{section*.34}
+\contentsline {chapter}{List of Tables}{57}{section*.35}
+\contentsline {chapter}{List of Listings}{58}{section*.36}
+\contentsline {chapter}{Acronyms}{58}{section*.37}
+\contentsline {chapter}{Bibliography}{60}{section*.40}
+\contentsline {chapter}{Attachments}{65}{chapter*.41}
+\contentsline {chapter}{\numberline {A}Brain Vision Files Examples}{66}{appendix.A}
+\contentsline {chapter}{\numberline {B}Metadata Terminology}{69}{appendix.B}
+\contentsline {chapter}{\numberline {C}Metadata Scheme}{72}{appendix.C}
+\contentsline {chapter}{\numberline {D}Export Program User Manual}{73}{appendix.D}
+\contentsline {section}{\numberline {D.1}Installation}{73}{section.D.1}
+\contentsline {section}{\numberline {D.2}Data Export}{73}{section.D.2}
+\contentsline {section}{\numberline {D.3}Metadata Export}{74}{section.D.3}
+\contentsline {section}{\numberline {D.4}Compression}{74}{section.D.4}

@@ -1,0 +1,960 @@
+\ifglsentryexists{eeg}{}%
+{%
+\gls@defglossaryentry{eeg}%
+{%
+name={EEG},%
+sort={EEG},%
+type={main},%
+first={Electroencephalography\glsspace (EEG)},%
+firstplural={Electroencephalographys\glsspace (EEGs)},%
+text={EEG},%
+plural={EEGs},%
+description={Electroencephalography},%
+descriptionplural={Electroencephalography\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Electroencephalography},%
+longplural={Electroencephalographys},%
+short={EEG},%
+shortplural={EEGs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{odml}{}%
+{%
+\gls@defglossaryentry{odml}%
+{%
+name={odML},%
+sort={odML},%
+type={main},%
+first={The open metadata markup language\glsspace (odML)},%
+firstplural={The open metadata markup languages\glsspace (odMLs)},%
+text={odML},%
+plural={odMLs},%
+description={The open metadata markup language},%
+descriptionplural={The open metadata markup language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={The open metadata markup language},%
+longplural={The open metadata markup languages},%
+short={odML},%
+shortplural={odMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uwb}{}%
+{%
+\gls@defglossaryentry{uwb}%
+{%
+name={UWB},%
+sort={UWB},%
+type={main},%
+first={University of West Bohemia\glsspace (UWB)},%
+firstplural={University of West Bohemias\glsspace (UWBs)},%
+text={UWB},%
+plural={UWBs},%
+description={University of West Bohemia},%
+descriptionplural={University of West Bohemia\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={University of West Bohemia},%
+longplural={University of West Bohemias},%
+short={UWB},%
+shortplural={UWBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{erp}{}%
+{%
+\gls@defglossaryentry{erp}%
+{%
+name={ERP},%
+sort={ERP},%
+type={main},%
+first={Event-related potentials\glsspace (ERP)},%
+firstplural={Event-related potentialss\glsspace (ERPs)},%
+text={ERP},%
+plural={ERPs},%
+description={Event-related potentials},%
+descriptionplural={Event-related potentials\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Event-related potentials},%
+longplural={Event-related potentialss},%
+short={ERP},%
+shortplural={ERPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uml}{}%
+{%
+\gls@defglossaryentry{uml}%
+{%
+name={UML},%
+sort={UML},%
+type={main},%
+first={Unified Modeling Language\glsspace (UML)},%
+firstplural={Unified Modeling Languages\glsspace (UMLs)},%
+text={UML},%
+plural={UMLs},%
+description={Unified Modeling Language},%
+descriptionplural={Unified Modeling Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Unified Modeling Language},%
+longplural={Unified Modeling Languages},%
+short={UML},%
+shortplural={UMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gui}{}%
+{%
+\gls@defglossaryentry{gui}%
+{%
+name={GUI},%
+sort={GUI},%
+type={main},%
+first={Graphical user interface\glsspace (GUI)},%
+firstplural={Graphical user interfaces\glsspace (GUIs)},%
+text={GUI},%
+plural={GUIs},%
+description={Graphical user interface},%
+descriptionplural={Graphical user interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Graphical user interface},%
+longplural={Graphical user interfaces},%
+short={GUI},%
+shortplural={GUIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gpl}{}%
+{%
+\gls@defglossaryentry{gpl}%
+{%
+name={GPL},%
+sort={GPL},%
+type={main},%
+first={General Public Licens\glsspace (GPL)},%
+firstplural={General Public Licenss\glsspace (GPLs)},%
+text={GPL},%
+plural={GPLs},%
+description={General Public Licens},%
+descriptionplural={General Public Licens\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={General Public Licens},%
+longplural={General Public Licenss},%
+short={GPL},%
+shortplural={GPLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fav}{}%
+{%
+\gls@defglossaryentry{fav}%
+{%
+name={FAV},%
+sort={FAV},%
+type={main},%
+first={Faculty of Applied Sciences\glsspace (FAV)},%
+firstplural={Faculty of Applied Sciencess\glsspace (FAVs)},%
+text={FAV},%
+plural={FAVs},%
+description={Faculty of Applied Sciences},%
+descriptionplural={Faculty of Applied Sciences\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Faculty of Applied Sciences},%
+longplural={Faculty of Applied Sciencess},%
+short={FAV},%
+shortplural={FAVs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hdf5}{}%
+{%
+\gls@defglossaryentry{hdf5}%
+{%
+name={HDF5},%
+sort={HDF5},%
+type={main},%
+first={Hierarchical Data Format 5\glsspace (HDF5)},%
+firstplural={Hierarchical Data Format 5s\glsspace (HDF5s)},%
+text={HDF5},%
+plural={HDF5s},%
+description={Hierarchical Data Format 5},%
+descriptionplural={Hierarchical Data Format 5\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hierarchical Data Format 5},%
+longplural={Hierarchical Data Format 5s},%
+short={HDF5},%
+shortplural={HDF5s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hdf4}{}%
+{%
+\gls@defglossaryentry{hdf4}%
+{%
+name={HDF4},%
+sort={HDF4},%
+type={main},%
+first={Hierarchical Data Format 4\glsspace (HDF4)},%
+firstplural={Hierarchical Data Format 4s\glsspace (HDF4s)},%
+text={HDF4},%
+plural={HDF4s},%
+description={Hierarchical Data Format 4},%
+descriptionplural={Hierarchical Data Format 4\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hierarchical Data Format 4},%
+longplural={Hierarchical Data Format 4s},%
+short={HDF4},%
+shortplural={HDF4s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hdf}{}%
+{%
+\gls@defglossaryentry{hdf}%
+{%
+name={HDF},%
+sort={HDF},%
+type={main},%
+first={Hierarchical Data Format\glsspace (HDF)},%
+firstplural={Hierarchical Data Formats\glsspace (HDFs)},%
+text={HDF},%
+plural={HDFs},%
+description={Hierarchical Data Format},%
+descriptionplural={Hierarchical Data Format\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hierarchical Data Format},%
+longplural={Hierarchical Data Formats},%
+short={HDF},%
+shortplural={HDFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{xml}{}%
+{%
+\gls@defglossaryentry{xml}%
+{%
+name={XML},%
+sort={XML},%
+type={main},%
+first={Extensible Markup Language\glsspace (XML)},%
+firstplural={Extensible Markup Languages\glsspace (XMLs)},%
+text={XML},%
+plural={XMLs},%
+description={Extensible Markup Language},%
+descriptionplural={Extensible Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Extensible Markup Language},%
+longplural={Extensible Markup Languages},%
+short={XML},%
+shortplural={XMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cno}{}%
+{%
+\gls@defglossaryentry{cno}%
+{%
+name={CNO},%
+sort={CNO},%
+type={main},%
+first={Computational Neuroscience Ontology\glsspace (CNO)},%
+firstplural={Computational Neuroscience Ontologys\glsspace (CNOs)},%
+text={CNO},%
+plural={CNOs},%
+description={Computational Neuroscience Ontology},%
+descriptionplural={Computational Neuroscience Ontology\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Computational Neuroscience Ontology},%
+longplural={Computational Neuroscience Ontologys},%
+short={CNO},%
+shortplural={CNOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{incf}{}%
+{%
+\gls@defglossaryentry{incf}%
+{%
+name={INCF},%
+sort={INCF},%
+type={main},%
+first={International Neuroinformatics Coordinating Facility\glsspace (INCF)},%
+firstplural={International Neuroinformatics Coordinating Facilitys\glsspace (INCFs)},%
+text={INCF},%
+plural={INCFs},%
+description={International Neuroinformatics Coordinating Facility},%
+descriptionplural={International Neuroinformatics Coordinating Facility\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={International Neuroinformatics Coordinating Facility},%
+longplural={International Neuroinformatics Coordinating Facilitys},%
+short={INCF},%
+shortplural={INCFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gnode}{}%
+{%
+\gls@defglossaryentry{gnode}%
+{%
+name={G-Node},%
+sort={G-Node},%
+type={main},%
+first={German Neuroinformatics Node\glsspace (G-Node)},%
+firstplural={German Neuroinformatics Nodes\glsspace (G-Nodes)},%
+text={G-Node},%
+plural={G-Nodes},%
+description={German Neuroinformatics Node},%
+descriptionplural={German Neuroinformatics Node\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={German Neuroinformatics Node},%
+longplural={German Neuroinformatics Nodes},%
+short={G-Node},%
+shortplural={G-Nodes},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{edc}{}%
+{%
+\gls@defglossaryentry{edc}%
+{%
+name={EDC},%
+sort={EDC},%
+type={main},%
+first={Electronic Data Capture\glsspace (EDC)},%
+firstplural={Electronic Data Captures\glsspace (EDCs)},%
+text={EDC},%
+plural={EDCs},%
+description={Electronic Data Capture},%
+descriptionplural={Electronic Data Capture\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Electronic Data Capture},%
+longplural={Electronic Data Captures},%
+short={EDC},%
+shortplural={EDCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hdfds}{}%
+{%
+\gls@defglossaryentry{hdfds}%
+{%
+name={HDFds},%
+sort={HDFds},%
+type={main},%
+first={Hierarchical Data Format \IeC {\textendash } data sharing\glsspace (HDFds)},%
+firstplural={Hierarchical Data Format \IeC {\textendash } data sharings\glsspace (HDFdss)},%
+text={HDFds},%
+plural={HDFdss},%
+description={Hierarchical Data Format – data sharing},%
+descriptionplural={Hierarchical Data Format – data sharing\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hierarchical Data Format \IeC {\textendash } data sharing},%
+longplural={Hierarchical Data Format \IeC {\textendash } data sharings},%
+short={HDFds},%
+shortplural={HDFdss},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ephdf}{}%
+{%
+\gls@defglossaryentry{ephdf}%
+{%
+name={epHDF},%
+sort={epHDF},%
+type={main},%
+first={electrophysiology HDF\glsspace (epHDF)},%
+firstplural={electrophysiology HDFs\glsspace (epHDFs)},%
+text={epHDF},%
+plural={epHDFs},%
+description={electrophysiology HDF},%
+descriptionplural={electrophysiology HDF\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={electrophysiology HDF},%
+longplural={electrophysiology HDFs},%
+short={epHDF},%
+shortplural={epHDFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{iso}{}%
+{%
+\gls@defglossaryentry{iso}%
+{%
+name={ISO},%
+sort={ISO},%
+type={main},%
+first={International Organization for Standardization\glsspace (ISO)},%
+firstplural={International Organization for Standardizations\glsspace (ISOs)},%
+text={ISO},%
+plural={ISOs},%
+description={International Organization for Standardization},%
+descriptionplural={International Organization for Standardization\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={International Organization for Standardization},%
+longplural={International Organization for Standardizations},%
+short={ISO},%
+shortplural={ISOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ecsn}{}%
+{%
+\gls@defglossaryentry{ecsn}%
+{%
+name={CSN},%
+sort={CSN},%
+type={main},%
+first={Czech standards\glsspace (CSN)},%
+firstplural={Czech standardss\glsspace (CSNs)},%
+text={CSN},%
+plural={CSNs},%
+description={Czech standards},%
+descriptionplural={Czech standards\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Czech standards},%
+longplural={Czech standardss},%
+short={CSN},%
+shortplural={CSNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{obo}{}%
+{%
+\gls@defglossaryentry{obo}%
+{%
+name={OBO},%
+sort={OBO},%
+type={main},%
+first={open biomedical ontologies\glsspace (OBO)},%
+firstplural={open biomedical ontologiess\glsspace (OBOs)},%
+text={OBO},%
+plural={OBOs},%
+description={open biomedical ontologies},%
+descriptionplural={open biomedical ontologies\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={open biomedical ontologies},%
+longplural={open biomedical ontologiess},%
+short={OBO},%
+shortplural={OBOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nifstd}{}%
+{%
+\gls@defglossaryentry{nifstd}%
+{%
+name={NIFSTD},%
+sort={NIFSTD},%
+type={main},%
+first={Neuroscience Information Framework Standard ontology\glsspace (NIFSTD)},%
+firstplural={Neuroscience Information Framework Standard ontologys\glsspace (NIFSTDs)},%
+text={NIFSTD},%
+plural={NIFSTDs},%
+description={Neuroscience Information Framework Standard ontology},%
+descriptionplural={Neuroscience Information Framework Standard ontology\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Neuroscience Information Framework Standard ontology},%
+longplural={Neuroscience Information Framework Standard ontologys},%
+short={NIFSTD},%
+shortplural={NIFSTDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bfo}{}%
+{%
+\gls@defglossaryentry{bfo}%
+{%
+name={BFO},%
+sort={BFO},%
+type={main},%
+first={Basic Formal Ontology\glsspace (BFO)},%
+firstplural={Basic Formal Ontologys\glsspace (BFOs)},%
+text={BFO},%
+plural={BFOs},%
+description={Basic Formal Ontology},%
+descriptionplural={Basic Formal Ontology\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Basic Formal Ontology},%
+longplural={Basic Formal Ontologys},%
+short={BFO},%
+shortplural={BFOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nif}{}%
+{%
+\gls@defglossaryentry{nif}%
+{%
+name={NIF},%
+sort={NIF},%
+type={main},%
+first={Neuroscience Information Framework\glsspace (NIF)},%
+firstplural={Neuroscience Information Frameworks\glsspace (NIFs)},%
+text={NIF},%
+plural={NIFs},%
+description={Neuroscience Information Framework},%
+descriptionplural={Neuroscience Information Framework\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Neuroscience Information Framework},%
+longplural={Neuroscience Information Frameworks},%
+short={NIF},%
+shortplural={NIFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{api}{}%
+{%
+\gls@defglossaryentry{api}%
+{%
+name={API},%
+sort={API},%
+type={main},%
+first={application programming interface\glsspace (API)},%
+firstplural={application programming interfaces\glsspace (APIs)},%
+text={API},%
+plural={APIs},%
+description={application programming interface},%
+descriptionplural={application programming interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={application programming interface},%
+longplural={application programming interfaces},%
+short={API},%
+shortplural={APIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{jhi}{}%
+{%
+\gls@defglossaryentry{jhi}%
+{%
+name={JHI},%
+sort={JHI},%
+type={main},%
+first={interface for Java HDF\glsspace (JHI)},%
+firstplural={interface for Java HDFs\glsspace (JHIs)},%
+text={JHI},%
+plural={JHIs},%
+description={interface for Java HDF},%
+descriptionplural={interface for Java HDF\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={interface for Java HDF},%
+longplural={interface for Java HDFs},%
+short={JHI},%
+shortplural={JHIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{jhi5}{}%
+{%
+\gls@defglossaryentry{jhi5}%
+{%
+name={JHI5},%
+sort={JHI5},%
+type={main},%
+first={The Java HDF5 Interface\glsspace (JHI5)},%
+firstplural={The Java HDF5 Interfaces\glsspace (JHI5s)},%
+text={JHI5},%
+plural={JHI5s},%
+description={The Java HDF5 Interface},%
+descriptionplural={The Java HDF5 Interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={The Java HDF5 Interface},%
+longplural={The Java HDF5 Interfaces},%
+short={JHI5},%
+shortplural={JHI5s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{soap}{}%
+{%
+\gls@defglossaryentry{soap}%
+{%
+name={SOAP},%
+sort={SOAP},%
+type={main},%
+first={Simple Object Access Protocol\glsspace (SOAP)},%
+firstplural={Simple Object Access Protocols\glsspace (SOAPs)},%
+text={SOAP},%
+plural={SOAPs},%
+description={Simple Object Access Protocol},%
+descriptionplural={Simple Object Access Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Simple Object Access Protocol},%
+longplural={Simple Object Access Protocols},%
+short={SOAP},%
+shortplural={SOAPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{json}{}%
+{%
+\gls@defglossaryentry{json}%
+{%
+name={JSON},%
+sort={JSON},%
+type={main},%
+first={JavaScript Object Notation\glsspace (JSON)},%
+firstplural={JavaScript Object Notations\glsspace (JSONs)},%
+text={JSON},%
+plural={JSONs},%
+description={JavaScript Object Notation},%
+descriptionplural={JavaScript Object Notation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={JavaScript Object Notation},%
+longplural={JavaScript Object Notations},%
+short={JSON},%
+shortplural={JSONs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bsd}{}%
+{%
+\gls@defglossaryentry{bsd}%
+{%
+name={BSD},%
+sort={BSD},%
+type={main},%
+first={Berkeley Source Distribution\glsspace (BSD)},%
+firstplural={Berkeley Source Distributions\glsspace (BSDs)},%
+text={BSD},%
+plural={BSDs},%
+description={Berkeley Source Distribution},%
+descriptionplural={Berkeley Source Distribution\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Berkeley Source Distribution},%
+longplural={Berkeley Source Distributions},%
+short={BSD},%
+shortplural={BSDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{edf}{}%
+{%
+\gls@defglossaryentry{edf}%
+{%
+name={EDF},%
+sort={EDF},%
+type={main},%
+first={European Data Format\glsspace (EDF)},%
+firstplural={European Data Formats\glsspace (EDFs)},%
+text={EDF},%
+plural={EDFs},%
+description={European Data Format},%
+descriptionplural={European Data Format\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={European Data Format},%
+longplural={European Data Formats},%
+short={EDF},%
+shortplural={EDFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{WSDL}{}%
+{%
+\gls@defglossaryentry{WSDL}%
+{%
+name={WSDL},%
+sort={WSDL},%
+type={main},%
+first={Web Service Definition Language\glsspace (WSDL)},%
+firstplural={Web Service Definition Languages\glsspace (WSDLs)},%
+text={WSDL},%
+plural={WSDLs},%
+description={Web Service Definition Language},%
+descriptionplural={Web Service Definition Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Web Service Definition Language},%
+longplural={Web Service Definition Languages},%
+short={WSDL},%
+shortplural={WSDLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
