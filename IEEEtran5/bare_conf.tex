@@ -250,7 +250,7 @@
 
 
 
-
+\usepackage{footnote}
 % *** SUBFIGURE PACKAGES ***
 %\usepackage[tight,footnotesize]{subfigure}
 % subfigure.sty was written by Steven Douglas Cochran. This package makes it
@@ -612,22 +612,20 @@ The metadata in electrophysiology domain providing information about stimuli, da
 
 \section{Design, Implementation, Testing}
 
-The EEGBase data model is based on the NIX data model (Figure~\ref{NIX_scheme} and Section~\ref{nixsection}). The NIX model is able to save data from any electrophysiology experiment. But for EEG experiments the NIX model is too general. So I used only necessary parts of the model and other sections were omitted. The omitted parts are in the NIX model optional, so my format is compatible with the NIX definition. EEGBase data model is described in Figure~\ref{format_scheme}. The data model uses the NIX scheme of Block, DataArray, MultiTag, DataTag and SimpleTag. The Block is used to divide measuring, DataArray stores raw data of signals and stimuli and MultiTag stores stimuli information and DataTag contains EEG channel information. DataArrays are divided for better distribution in my model to SIGNAL and MARKER parts. Also, the names of DataArrays correspond to names of channels. These adjustments allow better human readability and do not influence information or the model compatibility.
-
-Metadata are organized according to odML terminology. The G-Node odML scheme and terminology was used for the metadata part of file, but there was some more information in the metadata scheme used at UWB, which was difficult to save with existing odML terminology. Therefore the odML model and terminology were extended. We also decided that it would be useful to store some more data, which are more specific and could help to describe experiments better. The existing ontologies were also searched, for example Ontology for biomedical investigations \cite{Brinkman2010}. However, I decided to use odML because I was able to extend odML to perfectly fit our needs and it is already used by the NIX model.
-
 
 \subsection{HDFExport Program}
+
+Program HDFExport was developed to conversion of Brain Vision files into EEGBase format.
 \subsubsection {Analysis and Design}
 The file format is divided into the two autonomous parts DATA and METADATA, which relate to each other, but could be read or written separately. The both parts are stored in one HDF5 container.
 
-The data part stores all recorded binary data and the basic information about measuring for correct representation of measured data (Sampling interval, resolution and resolution unit). This section includes data from the eeg \ref{eeg}, vhdr \ref{vhdr} and vmrk \ref{vmrk} files. The file structure is defined by the NIX file model - (Figure~\ref{NIX_scheme}). I also use the same terminology and the file structure. However our model - EEGBase model was simplified for our needs. More specific description follows in Section~\ref{section_data}.
+The data part stores all recorded binary data and the basic information about measurement for correct representation of measured data (Sampling interval, resolution and resolution unit). This section includes data from the eeg, vhdr and vmrk files. The file structure is defined by the NIX file model - (Figure~\ref{NIX_scheme}). However our EEGBase model was simplified for our needs. More specific description follows in Section~\ref{section_data}.
 
-Java was selected as a programming language for program developing, because there is already parser of Brain Vision formats developed and also the EEGBase portal is written in Java. There is effort to include the export program into the EEGBase portal for easy export.
+Java was selected as a programming language for program developing, because there is already a parser of Brain Vision formats developed and also the EEGBase portal is written in Java. There is effort to include the export program into the EEGBase portal for easy export.
 
 \subsubsection{Data Model}
 \label{section_data}
-The data model is based on the NIX data model (Figure~\ref{NIX_scheme} and Section~\ref{nixsection}). The NIX model is able to save data from any electrophysiology experiment. But for EEG experiments the NIX model is too general. So I used only necessary parts of the model and other sections were omitted. The omitted parts are in the NIX model optional, so my format is compatible with the NIX definition. My data model is described in Figure~\ref{format_scheme}. The data model uses the NIX scheme of Block, DataArray, MultiTag, DataTag and SimpleTag. The Block is used to divide measuring, DataArray stores raw data of signals and stimuli and MultiTag stores stimuli information and DataTag contains EEG channel information. DataArrays are divided for better distribution in my model to SIGNAL and MARKER parts. Also, the names of DataArrays correspond to names of channels. These adjustments allow better human readability and do not influence information or the model compatibility.
+The EEGBase data model is based on the NIX data model (Figure~\ref{NIX_scheme} and Section~\ref{nixsection}). The NIX model is able to save data from any electrophysiology experiment. But for EEG experiments the NIX model is too general. So we used only necessary parts of the model and other sections were omitted. The omitted parts are in the NIX model optional, so EEGBase format is compatible with the NIX definition. EEGBase data model is described in Figure~\ref{format_scheme}. The data model uses the NIX scheme of Block, DataArray, MultiTag, DataTag and SimpleTag. The Block is used to divide measuring, DataArray stores raw data of signals and stimuli and MultiTag stores stimuli information and DataTag contains EEG channel information. DataArrays are divided for better distribution in my model to SIGNAL and MARKER parts. Also, the names of DataArrays correspond to names of channels. These adjustments allow better human readability and do not influence information or the model compatibility.
 
 \begin{figure}
 	\begin{center}
@@ -651,8 +649,73 @@ The changes and adjustments are described in Section~\ref{meta_adjustments} (Met
  
  \subsection{Metadata Terminology Extensions}
  \label{meta_adjustments}
- In order to save all our metadata into the HDF5 container I extended the odML model for our metadata. These modifications were committed to G-Node respective INCF GitHub repository \cite{odmlgithub}. New sections \textbf{Environment}, \textbf{Protocol} and \textbf{Software} and several attributes to the existing sections \textbf{Person} and \textbf{Electrode} were added. All suggested changes were included into odML.
+ In order to save all our metadata into the HDF5 container I extended the odML model for our metadata. These modifications were committed to G-Node respective INCF GitHub repository \cite{odmlgithub}. New sections \textbf{Environment}, \textbf{Protocol} and \textbf{Software} and several attributes to the existing sections \textbf{Person} and \textbf{Electrode} were added. All suggested changes were included into odML. All modification are listed in Table \ref{modification}.
+ 	\begin{savenotes}
+ \begin{table}
 
+ \caption{Modifications of the odML model.} 
+ 	\label{modification}
+ 
+ 	\begin{tabular}{ | l | l | l | p{3cm} |}		
+ 	\hline
+ \textbf{Name}& \textbf{Property} & \textbf{Value} & \textbf{Definition} \\
+ 	Electrode & Usage & Ground & Usage of electrode. \footnote{Added terminology that describes usage of electrode.}\\
+ 	\hline
+ 	Electrode & Usage & Reference&Usage of electrode.\footnotemark[\value{footnote}] \\ 
+ 	\hline
+ 	Electrode & Usage & Channel& Usage of electrode.\footnotemark[\value{footnote}]\\ 
+ 	\hline
+ 	Electrode & Description & String& \\ 
+ 	\hline		
+ 	Environment & Weather & String & \\ 
+ 	\hline	 
+ 	Environment & RoomTemperature & String & \\ 
+ 	\hline
+ 	Environment & AirHumidity & float & The air humidity in \%.\\ 
+ 	\hline
+ 	Environment & Description & String &  \\ 
+ 	\hline
+ 	Protocol & Description & String & Description of the experiment\\ 
+ 	\hline
+ 	Protocol & Author & person & The persons who create this protocol.\\ 
+ 	\hline
+ 	Protocol & ProtocolFile & binary & Protocol File.\\ 
+ 	\hline
+ 	Protocol & ProtocolFileURL & URL & URL of protocol file.\\ 
+ 	\hline
+ 	Protocol & Version & String & Version of the protocol.\\ 
+ 	\hline
+ 	Person & Education level & String & Highest archived education level of the person.\\ 
+ 	\hline
+ 	Person & Role & Subject & The role of this person.\\ 
+ 	\hline
+ 	Person & Email & String & Person's e-mail.\\ 
+ 	\hline
+ 	Person & PhoneNumber & String & Person's phone number.\\ 
+ 	\hline
+ 	Person & Laterality & String & Handedness - The dominant hand of the subject.\\ 
+ 	\hline
+ 	Software & Name & String & The software name.\\ 
+ 	\hline
+ 	Software & Owner & String & The owner of software.\\ 
+ 	\hline
+ 	Software & Developer & String & Developer or developers firm of the software.\\ 
+ 	\hline
+ 	Software & Version & String & Version of the software.\\ 
+ 	\hline
+ 	Software & License & String & License type.\\ 
+ 	\hline
+ 	Software & LicenceStart & date & The start date of time limited license.\\ 		\hline
+ 	Software & LicenceExpiration & date & The end date of time limited license.\\ 		\hline
+ 	Software & LicenceDuration & String & Duration of the license for the software.\\ 		\hline
+ 	Software & LicenceCount & int & Number of the software license.\footnote{For floating licenses}\\ 		\hline
+ 	Software & Distribution & String & Distribution type.\\ 		\hline
+ 	Software & Description & String & \\ 		\hline
+ 	Software & LicenceDuration & String & Duration of the license for the software.\\ 		\hline
+ \end{tabular}
+
+ \end{table} 
+ \end{savenotes}
 \subsection{HDFExport Program}
 The program is designed for several use cases divided by data and metadata location (Figure~\ref{use_case1}):
 \begin{itemize}
@@ -769,11 +832,11 @@ Several test were conducted to determine the resulting file size of the HDF5 con
 \section{Conclusion}
 We examined current file formats for storing electrophysiology data and data from experiments and measurements conducted at the University of West Bohemia. We became familiar with the data and metadata model of EEG measurements and its terminology. We examined the data and metadata model of EEGBase portal.
 
-We analyzed two early file standard proposals from INCF and I tracked progress in both. I found several currently used formats, which are using HDF as a container in neuroinformatics. I chose the most suitable format for our data and usage considering INCF recommendations.
+We analyzed two early file standard proposals from INCF and I tracked progress in both. We found several currently used formats, which are using HDF as a container in neuroinformatics. We chose the most suitable format for our data and usage considering INCF recommendations.
 
-I created my own implementation of the chosen format. I chose HDF5 container for the EEGBase format. I joined the INCF Electrophysiology Data Sharing Task Force and contributed to the odML terminology. I developed a program that transforms raw data and metadata from Brain Vision files to the EEGBase format, and I also included metadata which are stored in the EEGBase portal. I tested my format and program for several use cases and its performance. 
+We created implementation of the chosen format. We chose HDF5 container for the EEGBase format. We joined the INCF Electrophysiology Data Sharing Task Force and contributed to the odML terminology. We developed a program that transforms raw data and metadata from Brain Vision files to the EEGBase format, and We also included metadata which are stored in the EEGBase portal. We tested my format and program for several use cases and its performance. 
 
-The proposed EEGBase format is capable of storing all currently saved data and metadata and is able to store the future changes and modifications of metadata model. The developed program saves measured data into the EEGBase format. I also made a few suggestions for the UWB model. The program is currently using web services of the EEGBase portal for metadata loading. The developed libraries allow export of raw data or data with metadata. Exporting experimental data and metadata in the EEGBase format to the HDF5 container improves sharing capabilities of the EEGBase portal and overall attractiveness of stored experiments. 
+The proposed EEGBase format is capable of storing all currently saved data and metadata and is able to store the future changes and modifications of metadata model. The developed program stores measured data into the EEGBase format. I also made a few suggestions for the UWB model. The program is currently using web services of the EEGBase portal for metadata loading. The developed libraries allow export of raw data or data with metadata. Exporting experimental data and metadata in the EEGBase format to the HDF5 container improves sharing capabilities of the EEGBase portal and overall attractiveness of stored experiments. 
 
 
 

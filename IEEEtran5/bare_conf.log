@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.10)  10 SEP 2015 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  14 SEP 2015 18:01
 entering extended mode
 **bare_conf.tex
 (bare_conf.tex
 LaTeX2e <2015/01/01> patch level 2
-Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+Babel <3.9l> and hyphenation patterns for 69 languages loaded.
 (IEEEtran.cls
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
@@ -93,15 +93,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2015/08/03 3.9m The Babel package
 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2015/08/03 3.9m Babel switching mechanism
+)
 *************************************
 * Local config file bblopts.cfg used
 *
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-(C:\Users\Acer\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-english\english.ldf
+(C:\Users\vanek2\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-english\english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
-
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2015/08/03 3.9m Babel common definitions
 \babel@savecnt=\count91
@@ -360,6 +362,11 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen118
 \Gin@req@width=\dimen119
 )
+(C:\Users\vanek2\AppData\Roaming\MiKTeX\2.9\tex\latex\mdwtools\footnote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box27
+\fn@width=\dimen120
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
 Package: fixltx2e 2015/06/22 v2.0b fixes to LaTeX (obsolete)
 
@@ -391,16 +398,16 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
- (C:\Users\Acer\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ (C:\Users\vanek2\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count93
-\scratchdimen=\dimen120
-\scratchbox=\box27
+\scratchdimen=\dimen121
+\scratchbox=\box28
 \nofMPsegments=\count94
 \nofMParguments=\count95
 \everyMPshowfont=\toks18
 \MPscratchCnt=\count96
-\MPscratchDim=\dimen121
+\MPscratchDim=\dimen122
 \MPnumerator=\count97
 \makeMPintoPDFobject=\count98
 \everyMPtoPDFconversion=\toks19
@@ -409,7 +416,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 524.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 524.
- [1{C:/Users/Acer/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/Users/vanek2/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
@@ -429,215 +436,219 @@ File: obrazky/odml_tree.pdf Graphic file (type pdf)
 <use obrazky/odml_tree.pdf>
 Package pdftex.def Info: obrazky/odml_tree.pdf used on input line 603.
 (pdftex.def)             Requested size: 253.54921pt x 179.23698pt.
- [2] [3 <./obrazky/NIX_scheme.png> <./obrazky/odml_tree.pdf, page is rotated 90
- degrees>]
-<obrazky/data.pdf, id=24, 391.4625pt x 461.725pt>
+ [2]
+<obrazky/data.pdf, id=15, 391.4625pt x 461.725pt>
 File: obrazky/data.pdf Graphic file (type pdf)
  <use obrazky/data.pdf>
-Package pdftex.def Info: obrazky/data.pdf used on input line 634.
+Package pdftex.def Info: obrazky/data.pdf used on input line 632.
 (pdftex.def)             Requested size: 199.64322pt x 235.47664pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [3 <./obrazky/NIX_scheme.png> <./obrazky/odml_tree.pdf, page is rotated 90 deg
+rees>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 662.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 662.
+
+Underfull \hbox (badness 4819) in paragraph at lines 688--689
+[]\OT1/ptm/m/n/7 Highest archived ed-u-ca-tion
+ []
 
 <obrazky/use_case_location.pdf, id=25, 465.84038pt x 395.13623pt>
 File: obrazky/use_case_location.pdf Graphic file (type pdf)
 
 <use obrazky/use_case_location.pdf>
-Package pdftex.def Info: obrazky/use_case_location.pdf used on input line 666.
+Package pdftex.def Info: obrazky/use_case_location.pdf used on input line 729.
 (pdftex.def)             Requested size: 232.91962pt x 197.56763pt.
  [4 <./obrazky/data.pdf>]
 <obrazky/use_case_data.pdf, id=33, 478.00583pt x 400.39587pt>
 File: obrazky/use_case_data.pdf Graphic file (type pdf)
 
 <use obrazky/use_case_data.pdf>
-Package pdftex.def Info: obrazky/use_case_data.pdf used on input line 686.
+Package pdftex.def Info: obrazky/use_case_data.pdf used on input line 749.
 (pdftex.def)             Requested size: 239.00232pt x 200.19745pt.
  [5 <./obrazky/use_case_location.pdf> <./obrazky/use_case_data.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 820.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 883.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 822.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 822.
-
-Underfull \hbox (badness 10000) in paragraph at lines 817--823
+Underfull \hbox (badness 10000) in paragraph at lines 880--886
 []\OT1/ptm/m/sc/8 Poldrack\OT1/ptm/m/n/8 , R. A.  The fu-ture of fMRI in cog-ni
 -tive
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 817--823
+Underfull \hbox (badness 5245) in paragraph at lines 880--886
 \OT1/ptm/m/n/8 neu-ro-science.  \OT1/ptm/m/it/8 Neu-roIm-age\OT1/ptm/m/n/8 . au
 g 2012, 62, 2, s. 1216--1220.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 817--823
+Underfull \hbox (badness 10000) in paragraph at lines 880--886
 \OT1/pcr/m/n/8 10.1016/j.neuroimage.2011.08.007\OT1/ptm/m/n/8 .  Avail-able fro
 m:
  []
 
 
-Overfull \hbox (6.27823pt too wide) in paragraph at lines 817--823
+Overfull \hbox (6.27823pt too wide) in paragraph at lines 880--886
 $[]$\OT1/ptm/m/n/8 . 
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 825--831
+Underfull \hbox (badness 6016) in paragraph at lines 888--894
 \OT1/ptm/m/n/8 wide As-so-ci-a-tion Era.  \OT1/ptm/m/it/8 Neu-ron\OT1/ptm/m/n/8
  . jan 2012, 73, 2, s. 214--
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 825--831
+Underfull \hbox (badness 2828) in paragraph at lines 888--894
 \OT1/ptm/m/n/8 218.  \OT1/pcr/m/n/8 10.1016/j.neuron.2011.11.004\OT1/ptm/m/n/8 
 .  Avail-able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--839
+Underfull \hbox (badness 10000) in paragraph at lines 896--902
 []\OT1/ptm/m/sc/8 Poline\OT1/ptm/m/n/8 , J.-B. et al.  Data shar-ing in neu-roi
 mag-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--839
+Underfull \hbox (badness 10000) in paragraph at lines 896--902
 \OT1/ptm/m/n/8 ing re-search.  \OT1/ptm/m/it/8 Fron-tiers in Neu-roin-for-mat-i
 cs\OT1/ptm/m/n/8 . 2012,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 833--839
+Underfull \hbox (badness 10000) in paragraph at lines 896--902
 \OT1/ptm/m/n/8 6.  \OT1/pcr/m/n/8 10.3389/fninf.2012.00009\OT1/ptm/m/n/8 .  Ava
 il-able from:
  []
 
 
-Overfull \hbox (6.27823pt too wide) in paragraph at lines 841--848
+Overfull \hbox (6.27823pt too wide) in paragraph at lines 904--911
 $[]$\OT1/ptm/m/n/8 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--881
+Underfull \hbox (badness 10000) in paragraph at lines 937--944
 []\OT1/ptm/m/sc/8 Benda\OT1/ptm/m/n/8 , J.  From record-ing to shar-ing of data
  - em-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--881
+Underfull \hbox (badness 10000) in paragraph at lines 937--944
 \OT1/ptm/m/n/8 bed-ding meta-data han-dling into the lab-o-ra-tory work-flow
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--881
+Underfull \hbox (badness 10000) in paragraph at lines 937--944
 \OT1/ptm/m/n/8 us-ing odML.  \OT1/ptm/m/it/8 Fron-tiers in Neu-roin-for-mat-ics
 \OT1/ptm/m/n/8 . 2011, 5.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--881
+Underfull \hbox (badness 10000) in paragraph at lines 937--944
 \OT1/pcr/m/n/8 10.3389/conf.fninf.2011.08.00100\OT1/ptm/m/n/8 .  Avail-able fro
 m:
  []
 
 
-Overfull \hbox (6.27823pt too wide) in paragraph at lines 874--881
+Overfull \hbox (6.27823pt too wide) in paragraph at lines 937--944
 $[]$\OT1/ptm/m/n/8 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 888--891
+Underfull \hbox (badness 10000) in paragraph at lines 951--954
 []\OT1/ptm/m/it/8 Brain Prod-ucts GmbH \OT1/ptm/m/n/8 [on-line]. 2014. [cit. 03
 .07.2014].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 888--891
+Underfull \hbox (badness 10000) in paragraph at lines 951--954
 \OT1/ptm/m/n/8 Brain Prod-ucts GmbH.  Avail-able from:
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 895--901
+Underfull \hbox (badness 1577) in paragraph at lines 958--964
 \OT1/ptm/m/n/8 1, s. S7.  \OT1/pcr/m/n/8 10.1186/2041-1480-1-s1-s7\OT1/ptm/m/n/
 8 .  Avail-able from:
  []
 
 
-Overfull \hbox (6.27823pt too wide) in paragraph at lines 905--912
+Overfull \hbox (6.27823pt too wide) in paragraph at lines 968--975
 $[]$\OT1/ptm/m/n/8 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 928--930
+Underfull \hbox (badness 10000) in paragraph at lines 991--993
 []\OT1/ptm/m/it/8 INCF \OT1/ptm/m/n/8 [on-line]. 2015. [cit. 4.3.2015].  Avail-
 able from:
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 943--950
+Underfull \hbox (badness 2521) in paragraph at lines 1006--1013
 \OT1/ptm/m/n/8 an EDF alike stan-dard for-mat for the ex-change of phys-i-o-log
 -i-
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 955--961
+Underfull \hbox (badness 6016) in paragraph at lines 1018--1024
 \OT1/ptm/m/n/8 wide As-so-ci-a-tion Era.  \OT1/ptm/m/it/8 Neu-ron\OT1/ptm/m/n/8
  . jan 2012, 73, 2, s. 214--
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 955--961
+Underfull \hbox (badness 2828) in paragraph at lines 1018--1024
 \OT1/ptm/m/n/8 218.  \OT1/pcr/m/n/8 10.1016/j.neuron.2011.11.004\OT1/ptm/m/n/8 
 .  Avail-able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 963--965
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1028
 []\OT1/ptm/m/it/8 Neo \OT1/ptm/m/n/8 [on-line]. 2014. [cit. 03.07.2014].  Avail
 -able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 971--974
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1037
 []\OT1/ptm/m/it/8 NeXus For-mat \OT1/ptm/m/n/8 [on-line]. 2014. [cit. 03.07.201
 4]. NeXus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 971--974
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1037
 \OT1/ptm/m/n/8 In-ter-na-tional Ad-vi-sory Com-mit-tee.  Avail-able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 979--985
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1048
 []\OT1/ptm/m/sc/8 Poldrack\OT1/ptm/m/n/8 , R. A.  The fu-ture of fMRI in cog-ni
 -tive
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 979--985
+Underfull \hbox (badness 5245) in paragraph at lines 1042--1048
 \OT1/ptm/m/n/8 neu-ro-science.  \OT1/ptm/m/it/8 Neu-roIm-age\OT1/ptm/m/n/8 . au
 g 2012, 62, 2, s. 1216--1220.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 979--985
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1048
 \OT1/pcr/m/n/8 10.1016/j.neuroimage.2011.08.007\OT1/ptm/m/n/8 .  Avail-able fro
 m:
  []
 
 
-Overfull \hbox (6.27823pt too wide) in paragraph at lines 979--985
+Overfull \hbox (6.27823pt too wide) in paragraph at lines 1042--1048
 $[]$\OT1/ptm/m/n/8 . 
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 998--1001
+Underfull \hbox (badness 1502) in paragraph at lines 1061--1064
 []\OT1/ptm/m/it/8 The Open Bi-o-log-i-cal and Biomed-i-cal On-tolo-gies \OT1/pt
 m/m/n/8 [on-line]. 2015.
  []
@@ -659,13 +670,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2545 strings out of 493673
- 37199 string characters out of 3141533
- 109105 words of memory out of 3000000
- 5877 multiletter control sequences out of 15000+200000
- 41497 words of font info for 76 fonts, out of 3000000 for 9000
+ 2598 strings out of 493675
+ 38166 string characters out of 3141562
+ 113676 words of memory out of 3000000
+ 5920 multiletter control sequences out of 15000+200000
+ 44160 words of font info for 79 fonts, out of 3000000 for 9000
  1028 hyphenation exceptions out of 8191
- 27i,8n,23p,1021b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,18n,23p,1040b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
@@ -673,7 +684,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 .9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on bare_conf.pdf (6 pages, 580588 bytes).
+Output written on bare_conf.pdf (6 pages, 582576 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
