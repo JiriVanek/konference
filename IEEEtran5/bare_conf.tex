@@ -20,7 +20,7 @@
 %% Legal Notice:
 %% This code is offered as-is without any warranty either expressed or
 %% implied; without even the implied warranty of MERCHANTABILITY or
-%% FITNESS FOR A PARTICULAR PURPOSE! 
+%% FITNESS FOR A PARTICULAR PURPOSE!
 %% User assumes all risk.
 %% In no event shall IEEE or any contributor to this code be liable for
 %% any damages or losses, including, but not limited to, incidental,
@@ -147,7 +147,7 @@
 % graphicx was written by David Carlisle and Sebastian Rahtz. It is
 % required if you want graphics, photos, etc. graphicx.sty is already
 % installed on most LaTeX systems. The latest version and documentation can
-% be obtained at: 
+% be obtained at:
 % http://www.ctan.org/tex-archive/macros/latex/required/graphics/
 % Another good source of documentation is "Using Imported Graphics in
 % LaTeX2e" by Keith Reckdahl which can be found as epslatex.ps or
@@ -272,7 +272,7 @@
 % IEEEtran.cls handling of captions and this will result in nonIEEE style
 % figure/table captions. To prevent this problem, be sure and preload
 % caption.sty with its "caption=false" package option. This is will preserve
-% IEEEtran.cls handing of captions. Version 1.3 (2005/06/28) and later 
+% IEEEtran.cls handing of captions. Version 1.3 (2005/06/28) and later
 % (recommended due to many improvements over 1.2) of subfig.sty supports
 % the caption=false option directly:
 %\usepackage[caption=false,font=footnotesize]{subfig}
@@ -361,7 +361,7 @@
 \author{\IEEEauthorblockN{Jiří Vaněk}
 \IEEEauthorblockA{Faculty of Applied Sciences, Department of Computer Science and Engineering\\
 University of West Bohemia\\
-Pilsen, Czech republic\\
+Univerzitní 8, 306 14, Pilsen, Czech Republic\\
 Email: vanek2@kiv.zcu.cz}
 }
 
@@ -372,10 +372,10 @@ Email: vanek2@kiv.zcu.cz}
 
 % for over three affiliations, or if they all won't fit within the width
 % of the page, use this alternative format:
-% 
+%
 %\author{\IEEEauthorblockN{Michael Shell\IEEEauthorrefmark{1},
 %Homer Simpson\IEEEauthorrefmark{2},
-%James Kirk\IEEEauthorrefmark{3}, 
+%James Kirk\IEEEauthorrefmark{3},
 %Montgomery Scott\IEEEauthorrefmark{3} and
 %Eldon Tyrell\IEEEauthorrefmark{4}}
 %\IEEEauthorblockA{\IEEEauthorrefmark{1}School of Electrical and Computer Engineering\\
@@ -429,7 +429,7 @@ Currently there is no standardized data format for storing electrophysiological 
 %\begin{figure}[!t]
 %\centering
 %\includegraphics[width=2.5in]{myfigure}
-% where an .eps filename suffix will be assumed under latex, 
+% where an .eps filename suffix will be assumed under latex,
 % and a .pdf suffix will be assumed for pdflatex; or what has been declared
 % via \DeclareGraphicsExtensions.
 %\caption{Simulation Results}
@@ -463,7 +463,7 @@ Currently there is no standardized data format for storing electrophysiological 
 % reference/describe all of them (a), (b), etc., within the main caption.
 
 
-% An example of a floating table. Note that, for IEEE style tables, the 
+% An example of a floating table. Note that, for IEEE style tables, the
 % \caption command should come BEFORE the table. Table text will default to
 % \footnotesize as IEEE normally uses this smaller font for tables.
 % The \label must come after \caption as always.
@@ -514,7 +514,7 @@ Brain research has been very popular recently. Tens of measurements are conducte
 
 It is important to develop an independent standard for storing and exporting experimental data and metadata. If this standard is accepted by a larger community, it will allow easy sharing and better understanding of conducted experiments.
 
-At first we had to get familiar with formats for storing electroencephalography and biomedical data. I explored their model, terminology and ontology. I became acquainted with the International Neuroinformatics Coordinating Facility (INCF) \cite{incfweb} working group and their standard proposal. The storing options of measured experiments at the University of West Bohemia were checked. The formats containing data and stored metadata were analyzed. Then it was necessary to search for available formats for storing EEG data, compare them and choose the best one or develop a new one. 
+At first we had to get familiar with formats for storing electroencephalography and biomedical data. I explored their model, terminology and ontology. I became acquainted with the International Neuroinformatics Coordinating Facility (INCF) \cite{incfweb} working group and their standard proposal. The storing options of measured experiments at the University of West Bohemia were checked. The formats containing data and stored metadata were analyzed. Then it was necessary to search for available formats for storing EEG data, compare them and choose the best one or develop a new one.
 
 \section{State of the Art}
 \subsection{Data Sharing}
@@ -527,10 +527,10 @@ A trend toward increased sharing of neuroinformatics data has emerged in recent 
 	\item \textbf{to improve data quality}
 	
 	The sharing data helps uncover mistakes as missing data, noise, errors, etc. and improves the quality of the data in the future experiments.
-	\item  \textbf{to reduce cost of research} 
+	\item  \textbf{to reduce cost of research}
 	
 	Neuroimaging research is costly both in terms of the data acquisition costs and the time spent in data documentation. A significant amount of money could be saved from redundant data acquisition if data were shared with appropriate metadata descriptions. \cite{Poline2012}
-	\end{itemize} 
+	\end{itemize}
 
 
 \subsection{Program on Standards for Data Sharing}
@@ -542,11 +542,11 @@ Program Standards for Data Sharing aims to develop generic standard and tools to
 The current focus of the Program on Standards for Data Sharing is in two areas: neuroimaging and electrophysiology. \cite{incf_mission}. The most important requirement of such a standard is to accommodate common types of data used in electrophysiology or neuroimaging and also the metadata required to describe them.
 
 \subsection{Present formats for Storing EEG Data}
-Most known formats for storing EEG data use the format HDF5. Also both INCF proposals use HDF5 and the Electrophysiology Task Force of the INCF Program on Standards for Data Sharing in Requirements for a standard recommends basing a standard on HDF5. \cite{requirements} Some formats are proprietary and even though some of them are well documented, is due to licenses complicated to use them or edit them. So I focus on the open ones. For storing EEG neuroinformatics data many types of formats exist. The most known and used formats are Ovation \cite{ovation}, NeXus Format \cite{nexus}, NEO \cite{neo}, NeuroHDF \cite{neurohdf}, EDF+ \cite{kemp2003} and NIX (Pandora) \cite{pandora}. 
+Most known formats for storing EEG data use the format HDF5. Also both INCF proposals use HDF5 and the Electrophysiology Task Force of the INCF Program on Standards for Data Sharing in Requirements for a standard recommends basing a standard on HDF5. \cite{requirements} Some formats are proprietary and even though some of them are well documented, is due to licenses complicated to use them or edit them. So I focus on the open ones. For storing EEG neuroinformatics data many types of formats exist. The most known and used formats are Ovation \cite{ovation}, NeXus Format \cite{nexus}, NEO \cite{neo}, NeuroHDF \cite{neurohdf}, EDF+ \cite{kemp2003} and NIX (Pandora) \cite{pandora}.
 \subsubsection{NIX}
 \label{nixsection}
-This format also uses HDF5 as a data container. This format specification closely defines an inner structure of file, especially the data part. The meta data part is defined by the odML. 
-The NIX project (previously called Pandora) started in the context of the Electrophysiology Task Force which is part of the INCF Datasharing Program. 
+This format also uses HDF5 as a data container. This format specification closely defines an inner structure of file, especially the data part. The meta data part is defined by the odML.
+The NIX project (previously called Pandora) started in the context of the Electrophysiology Task Force which is part of the INCF Datasharing Program.
 
 NIX is one approach to this problem: it uses highly generic models for data as well as for metadata and defines standard schemata for HDF5 files representing these models. Last but not least NIX aims to provide a convenient C++ library to simplify the access to the defined format. The design principle of the data model used by NIX was to create a rather minimalistic, generic, yet expressive model that is able to represent data stored in other widely used formats or models like Neuroshare or NEO without any loss of information. Due to its generic approach, the data model is also able to represent other kinds of data used in the field e.g. image data or image stacks. \cite{pandora}
 
@@ -559,11 +559,11 @@ NIX is one approach to this problem: it uses highly generic models for data as w
 
 
 
-This format's scheme (Figure~\ref{NIX_scheme}) was taken as inspiration for EEGBase file format. The measurements are stored in blocks. Each block identifies measurement and related metadata section. Raw data (signals, stimuli) are saved in DataArrays and they are specified by Dimension, Sample, Set, Representation and Range (Figure~\ref{NIX_scheme}) and could be specified by DataTag. The stimuli and artifacts are stored in SimpleTag (one stimulus) or MultiTag (more stimuli). The source of DataArrays or Tags could be specified by Source. Each section could contain link to the metadata part with measurement information. 
+This format's scheme (Figure~\ref{NIX_scheme}) was taken as inspiration for EEGBase file format. The measurements are stored in blocks. Each block identifies measurement and related metadata section. Raw data (signals, stimuli) are saved in DataArrays and they are specified by Dimension, Sample, Set, Representation and Range (Figure~\ref{NIX_scheme}) and could be specified by DataTag. The stimuli and artifacts are stored in SimpleTag (one stimulus) or MultiTag (more stimuli). The source of DataArrays or Tags could be specified by Source. Each section could contain link to the metadata part with measurement information.
 
 \subsubsection{Brain Vision Format}
 
-EEG data at University of West Bohemia are recorded by BrainVision Recorder \cite{brainvision}. This program records raw data and saves it to three files. 
+EEG data at University of West Bohemia are recorded by BrainVision Recorder \cite{brainvision}. This program records raw data and saves it to three files.
 
 The BrainVision Recorder does not allow natively recorded data in any other format. Most recordings consist of three files. The format of these files is defined in the BrainVision Recorder User Manual \cite{brainUserManual}:
 \begin{itemize}
@@ -588,11 +588,11 @@ These files are stored in the EEGBase portal \cite{eegportal} with metadata abou
 
 \subsection{Hierarchical Data Format}
 
-HDF is a data model, file format and library for storing extremely large and complex data collections. This technology is able to store any kind of data and is used all over the world in research centers and government agencies. For example the format HDF5 is used by Cardiff University for resolving their problem with grid computing, Deutsche Bank for financial engineering, Diamond Light Source in synchrotron science, Laboratory for Neural Computation for bio-engineering and many others. A lot of formats for storing electrophysiology data use HDF5. 
+HDF is a data model, file format and library for storing extremely large and complex data collections. This technology is able to store any kind of data and is used all over the world in research centers and government agencies. For example the format HDF5 is used by Cardiff University for resolving their problem with grid computing, Deutsche Bank for financial engineering, Diamond Light Source in synchrotron science, Laboratory for Neural Computation for bio-engineering and many others. A lot of formats for storing electrophysiology data use HDF5.
 "The grouping structure in HDF5 enables applications to organize data objects in HDF5 to reflect complex relationships among objects. The rich collection of HDF5 datatypes, including datatypes that can point to data in other objects, and including the ability for users to define their own types, lets applications build sophisticated structures that match well with complex data. The HDF5 library has a correspondingly rich set of operations that enables applications to access just those components that are important." \cite{hdf}
 
 
-HDF is similar to XML documents, HDF files allow to specify complex data relationships and dependencies and are self-describing. Several APIs for programing languages C, C++, Fortran 90, Java and others are available for this format. 
+HDF is similar to XML documents, HDF files allow to specify complex data relationships and dependencies and are self-describing. Several APIs for programing languages C, C++, Fortran 90, Java and others are available for this format.
 HDF is open-source (BSD license), stored data are human readable and the metadata model is easily customized.
 
 \subsection{Open Metadata Markup Language}
@@ -641,68 +641,68 @@ Ontology and terminology of the data part is based on the NIX model that is desc
 
 \subsubsection{Metadata Part - odML}
 \label{odml_section}
-Metadata are organized according to odML terminology. The G-Node odML scheme and terminology was used for the metadata part of file, but there was some more information in the metadata scheme used at UWB, which was difficult to save with existing odML terminology. Therefore the odML model and terminology were extended. 
+Metadata are organized according to odML terminology. The G-Node odML scheme and terminology was used for the metadata part of file, but there was some more information in the metadata scheme used at UWB, which was difficult to save with existing odML terminology. Therefore the odML model and terminology were extended.
 The changes and adjustments are described in Section~\ref{meta_adjustments} (Metadata Terminology Extensions).
 
  We also decided that it would be useful to store some more data, which are more specific and could help to describe experiments better. The existing ontologies were also searched, for example Ontology for biomedical investigations \cite{oen} \cite{Brinkman2010}. However, I decided to use odML because I was able to extend odML to perfectly fit our needs and it is already used by the NIX model.
- 
+
  \subsection{Metadata Terminology Extensions}
  \label{meta_adjustments}
  In order to save all our metadata into the HDF5 container I extended the odML model for our metadata. These modifications were committed to G-Node respective INCF GitHub repository \cite{odmlgithub}. New sections \textbf{Environment}, \textbf{Protocol} and \textbf{Software} and several attributes to the existing sections \textbf{Person} and \textbf{Electrode} were added. All suggested changes were included into odML. All modification are listed in Table \ref{modification}.
  	\begin{savenotes}
  \begin{table}
 
- \caption{Modifications of the odML model.} 
+ \caption{Modifications of the odML model.}
  	\label{modification}
- 
+
  	\begin{tabular}{ | l | l | l | p{3cm} |}		
  	\hline
  \textbf{Name}& \textbf{Property} & \textbf{Value} & \textbf{Definition} \\
  	Electrode & Usage & Ground & Usage of electrode. \footnote{Added terminology that describes usage of electrode.}\\
  	\hline
- 	Electrode & Usage & Reference&Usage of electrode.\footnotemark[\value{footnote}] \\ 
+ 	Electrode & Usage & Reference&Usage of electrode.\footnotemark[\value{footnote}] \\
  	\hline
- 	Electrode & Usage & Channel& Usage of electrode.\footnotemark[\value{footnote}]\\ 
+ 	Electrode & Usage & Channel& Usage of electrode.\footnotemark[\value{footnote}]\\
  	\hline
- 	Electrode & Description & String& \\ 
+ 	Electrode & Description & String& \\
  	\hline		
- 	Environment & Weather & String & \\ 
- 	\hline	 
- 	Environment & RoomTemperature & String & \\ 
+ 	Environment & Weather & String & \\
+ 	\hline	
+ 	Environment & RoomTemperature & String & \\
  	\hline
- 	Environment & AirHumidity & float & The air humidity in \%.\\ 
+ 	Environment & AirHumidity & float & The air humidity in \%.\\
  	\hline
- 	Environment & Description & String &  \\ 
+ 	Environment & Description & String &  \\
  	\hline
- 	Protocol & Description & String & Description of the experiment\\ 
+ 	Protocol & Description & String & Description of the experiment\\
  	\hline
- 	Protocol & Author & person & The persons who create this protocol.\\ 
+ 	Protocol & Author & person & The persons who create this protocol.\\
  	\hline
- 	Protocol & ProtocolFile & binary & Protocol File.\\ 
+ 	Protocol & ProtocolFile & binary & Protocol File.\\
  	\hline
- 	Protocol & ProtocolFileURL & URL & URL of protocol file.\\ 
+ 	Protocol & ProtocolFileURL & URL & URL of protocol file.\\
  	\hline
- 	Protocol & Version & String & Version of the protocol.\\ 
+ 	Protocol & Version & String & Version of the protocol.\\
  	\hline
- 	Person & Education level & String & Highest archived education level of the person.\\ 
+ 	Person & Education level & String & Highest archived education level of the person.\\
  	\hline
- 	Person & Role & Subject & The role of this person.\\ 
+ 	Person & Role & Subject & The role of this person.\\
  	\hline
- 	Person & Email & String & Person's e-mail.\\ 
+ 	Person & Email & String & Person's e-mail.\\
  	\hline
- 	Person & PhoneNumber & String & Person's phone number.\\ 
+ 	Person & PhoneNumber & String & Person's phone number.\\
  	\hline
- 	Person & Laterality & String & Handedness - The dominant hand of the subject.\\ 
+ 	Person & Laterality & String & Handedness - The dominant hand of the subject.\\
  	\hline
- 	Software & Name & String & The software name.\\ 
+ 	Software & Name & String & The software name.\\
  	\hline
- 	Software & Owner & String & The owner of software.\\ 
+ 	Software & Owner & String & The owner of software.\\
  	\hline
- 	Software & Developer & String & Developer or developers firm of the software.\\ 
+ 	Software & Developer & String & Developer or developers firm of the software.\\
  	\hline
- 	Software & Version & String & Version of the software.\\ 
+ 	Software & Version & String & Version of the software.\\
  	\hline
- 	Software & License & String & License type.\\ 
+ 	Software & License & String & License type.\\
  	\hline
  	Software & LicenceStart & date & The start date of time limited license.\\ 		\hline
  	Software & LicenceExpiration & date & The end date of time limited license.\\ 		\hline
@@ -713,7 +713,7 @@ The changes and adjustments are described in Section~\ref{meta_adjustments} (Met
  	Software & LicenceDuration & String & Duration of the license for the software.\\ 		\hline
  \end{tabular}
 
- \end{table} 
+ \end{table}
  \end{savenotes}
 \subsection{HDFExport Program}
 The program is designed for several use cases divided by data and metadata location (Figure~\ref{use_case1}):
@@ -771,24 +771,24 @@ The write performance tests were conducted to determine time consumption of expo
 	\label{speed_test}
 	\begin{tabular}{|c|c|c|c|c|}
 		\hline
-		\textbf{File size} & \multicolumn{4}{c|}{\textbf{Time needed for conversion in ms}}\\ 
+		\textbf{File size} & \multicolumn{4}{c|}{\textbf{Time needed for conversion in ms}}\\
 		\cline{2-5}		
-		\textbf{ of Brain Vision files}	&\textbf{Best} & \textbf{Worst} & \textbf{Average} & \textbf{With compression}\\ 
+		\textbf{ of Brain Vision files}	&\textbf{Best} & \textbf{Worst} & \textbf{Average} & \textbf{With compression}\\
 		\hline
 		\hline 21,3 MB & 3010 & 3501  & 3132& 7529 \\ 	
-		\hline 51,2 MB & 6160  & 7906 & 6700 & 26051\\ 
-		\hline 58 MB & 7668 &  8262 &  7947& 29032\\ 
-		\hline 87,2 MB & 31364 & 35957 & 32820& 44877\\ 
+		\hline 51,2 MB & 6160  & 7906 & 6700 & 26051\\
+		\hline 58 MB & 7668 &  8262 &  7947& 29032\\
+		\hline 87,2 MB & 31364 & 35957 & 32820& 44877\\
 		\hline 197,8 MB & 13060  & 14625 &  13502& 40168\\ 		
-		\hline 221,3 MB & 14589 & 16321 & 15197& 42679 \\ 
-		\hline 221,6 MB & 14347  & 16108 & 14871& 43586\\ 
-		\hline 
-	\end{tabular} 
+		\hline 221,3 MB & 14589 & 16321 & 15197& 42679 \\
+		\hline 221,6 MB & 14347  & 16108 & 14871& 43586\\
+		\hline
+	\end{tabular}
 \end{table}
 
 
 \subsection{File Size Test}
-Several test were conducted to determine the resulting file size of the HDF5 container containing all data. Data from real experiments were used for the tests. The test shows that size of the HDF5 container is influenced by exported data and the original file size is not the only decisive factor. The size of the HDF5 container is always bigger then Brain Vision files, at worst case even four times bigger in the best scenario about two times bigger. The results are shown in Table~\ref{file_size}. The GZip compression was used to reduce file size. The GZip compression is integrated in HDF libraries and it is supported natively (reading of the data does not require any special actions). 
+Several test were conducted to determine the resulting file size of the HDF5 container containing all data. Data from real experiments were used for the tests. The test shows that size of the HDF5 container is influenced by exported data and the original file size is not the only decisive factor. The size of the HDF5 container is always bigger then Brain Vision files, at worst case even four times bigger in the best scenario about two times bigger. The results are shown in Table~\ref{file_size}. The GZip compression was used to reduce file size. The GZip compression is integrated in HDF libraries and it is supported natively (reading of the data does not require any special actions).
 
 \begin{table}[h]
 	\caption{File size tests.}
@@ -796,16 +796,16 @@ Several test were conducted to determine the resulting file size of the HDF5 con
 	\centering
 	\begin{tabular}{|c|c|c|c|}
 		\hline \textbf{File size}  & {\textbf{HDF5 file size}}& {\textbf{HDF5 file size}}  & \textbf{Ratio}	\\
-		\textbf{of Brain Vision files} & &  with compression &	\\ 
-		\hline 21,3 MB & 80,9 MB & 26,92 MB& 1,26x\\ 
+		\textbf{of Brain Vision files} & &  with compression &	\\
+		\hline 21,3 MB & 80,9 MB & 26,92 MB& 1,26x\\
 		\hline 51,2 MB & 194,2 MB & 112,98 MB & 2,21x\\
-		\hline 58 MB & 221,1 MB & 102,79 MB & 1,77x\\  
-		\hline 87,2 MB & 329,7 MB & 124,51 MB & 1,43x\\ 
+		\hline 58 MB & 221,1 MB & 102,79 MB & 1,77x\\
+		\hline 87,2 MB & 329,7 MB & 124,51 MB & 1,43x\\
 		\hline 197,8 MB & 370,9 MB & 305,19 MB& 1,54x\\ 		
-		\hline 221,3 MB & 414,9 MB & 355,58 MB & 1,61x\\ 
+		\hline 221,3 MB & 414,9 MB & 355,58 MB & 1,61x\\
 		\hline 221,6 MB & 415,5 MB & 334,46 MB & 1,51x\\ 		
-		\hline 
-	\end{tabular} 
+		\hline
+	\end{tabular}
 \end{table}
 
 \begin{table}
@@ -814,16 +814,16 @@ Several test were conducted to determine the resulting file size of the HDF5 con
 	\centering
 	\begin{tabular}{|c|c|c|c|c|}
 		\hline {\textbf{Original file size}}  & \multicolumn{4}{ c| }{\textbf{HDF5 file size in MB}}\\
-		& chunk 64 & chunk 256 & chunk 512 &  chunk 1024	\\ 
+		& chunk 64 & chunk 256 & chunk 512 &  chunk 1024	\\
 		\hline 21,3 MB &  39,76  & 26,92 & 23,30 & 20,46\\ 	
-		\hline 51,2 MB & 155,47 & 112,98  & 99,31 & 87,85 \\ 
-		\hline 58 MB    & 151,31 & 102,79 & 88,60 & 77,96 \\ 
-		\hline 87,2 MB & 176,53  & 124,51 &  112,43& 104,15\\ 
+		\hline 51,2 MB & 155,47 & 112,98  & 99,31 & 87,85 \\
+		\hline 58 MB    & 151,31 & 102,79 & 88,60 & 77,96 \\
+		\hline 87,2 MB & 176,53  & 124,51 &  112,43& 104,15\\
 		\hline 197,8 MB & 365,63 & 305,19 & 292,59 & 285,48\\ 		
-		\hline 221,3 MB & 422,83  & 355,58& 341,72 & 333,83\\ 
-		\hline 221,6 MB & 402,81 & 334,46 & 320,22 & 312,10 \\ 
-		\hline 
-	\end{tabular} 
+		\hline 221,3 MB & 422,83  & 355,58& 341,72 & 333,83\\
+		\hline 221,6 MB & 402,81 & 334,46 & 320,22 & 312,10 \\
+		\hline
+	\end{tabular}
 \end{table}
 
 
@@ -833,9 +833,9 @@ We examined current file formats for storing electrophysiology data and data fro
 
 We analyzed two early file standard proposals from INCF and I tracked progress in both. We found several currently used formats, which are using HDF as a container in neuroinformatics. We chose the most suitable format for our data and usage considering INCF recommendations.
 
-We created implementation of the chosen format. We chose HDF5 container for the EEGBase format. We joined the INCF Electrophysiology Data Sharing Task Force and contributed to the odML terminology. We developed a program that transforms raw data and metadata from Brain Vision files to the EEGBase format, and We also included metadata which are stored in the EEGBase portal. We tested my format and program for several use cases and its performance. 
+We created implementation of the chosen format. We chose HDF5 container for the EEGBase format. We joined the INCF Electrophysiology Data Sharing Task Force and contributed to the odML terminology. We developed a program that transforms raw data and metadata from Brain Vision files to the EEGBase format, and We also included metadata which are stored in the EEGBase portal. We tested my format and program for several use cases and its performance.
 
-The proposed EEGBase format is capable of storing all currently saved data and metadata and is able to store the future changes and modifications of metadata model. The developed program stores measured data into the EEGBase format. I also made a few suggestions for the UWB model. The program is currently using web services of the EEGBase portal for metadata loading. The developed libraries allow export of raw data or data with metadata. Exporting experimental data and metadata in the EEGBase format to the HDF5 container improves sharing capabilities of the EEGBase portal and overall attractiveness of stored experiments. 
+The proposed EEGBase format is capable of storing all currently saved data and metadata and is able to store the future changes and modifications of metadata model. The developed program stores measured data into the EEGBase format. I also made a few suggestions for the UWB model. The program is currently using web services of the EEGBase portal for metadata loading. The developed libraries allow export of raw data or data with metadata. Exporting experimental data and metadata in the EEGBase format to the HDF5 container improves sharing capabilities of the EEGBase portal and overall attractiveness of stored experiments.
 
 
 

@@ -1,10 +1,19 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  20 SEP 2015 19:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.25)  25 SEP 2015 13:24
 entering extended mode
 **bare_conf.tex
-(bare_conf.tex
-LaTeX2e <2015/01/01> patch level 2
-Babel <3.9l> and hyphenation patterns for 69 languages loaded.
-(IEEEtran.cls
+("C:\Users\Roman Mouček\Documents\GitHub\konference\IEEEtran5\bare_conf.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Users\Roman Mouček\Documents\GitHub\konference\IEEEtran5\IEEEtran.cls"
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -17,7 +26,7 @@ istensen
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+(D:\MikTex\tex\latex\psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -90,43 +99,38 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2015/08/03 3.9m The Babel package
+) (D:\MikTex\tex\generic\babel\babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2015/08/03 3.9m Babel switching mechanism
-)
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+(D:\MikTex\tex\latex\00miktex\bblopts.cfg
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-(C:\Users\vanek2\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-english\english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2015/08/03 3.9m Babel common definitions
+(D:\MikTex\tex\generic\babel\english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+ (D:\MikTex\tex\generic\babel\babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen117
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+)) (D:\MikTex\tex\latex\base\inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2015/06/27 v1.1n UTF-8 support for inputenc
+ (D:\MikTex\tex\latex\base\utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+(D:\MikTex\tex\latex\base\t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -274,9 +278,8 @@ File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+ (D:\MikTex\tex\latex\base\ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -306,8 +309,8 @@ File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+(D:\MikTex\tex\latex\base\omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -330,31 +333,31 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(D:\MikTex\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(D:\MikTex\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(D:\MikTex\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(D:\MikTex\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+(D:\MikTex\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(D:\MikTex\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(D:\MikTex\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(D:\MikTex\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count92
@@ -362,20 +365,16 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen118
 \Gin@req@width=\dimen119
 )
-(C:\Users\vanek2\AppData\Roaming\MiKTeX\2.9\tex\latex\mdwtools\footnote.sty
+(D:\MikTex\tex\latex\mdwtools\footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box27
 \fn@width=\dimen120
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
-Package: fixltx2e 2015/06/22 v2.0b fixes to LaTeX (obsolete)
-
-
-Package fixltx2e Warning: fixltx2e is not required with releases after 2015
-(fixltx2e)                All fixes are now in the LaTeX kernel.
-(fixltx2e)                See the latexrelease package for details.
-
-) (bare_conf.aux
+(D:\MikTex\tex\latex\base\fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+("C:\Users\Roman Mouček\Documents\GitHub\konference\IEEEtran5\bare_conf.aux"
 
 LaTeX Warning: Label `incf_mission' multiply defined.
 
@@ -398,7 +397,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 351.
 LaTeX Font Info:    ... okay on input line 351.
- (C:\Users\vanek2\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ (D:\MikTex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count93
 \scratchdimen=\dimen121
@@ -416,11 +415,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 523.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 523.
- [1{C:/Users/vanek2/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/Users/Roman Mouček/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-]
-<obrazky/NIX_scheme.png, id=10, 574.39594pt x 398.23781pt>
+] <obrazky/NIX_scheme.png, id=10, 574.39594pt x 398.23781pt>
 File: obrazky/NIX_scheme.png Graphic file (type png)
 
 <use obrazky/NIX_scheme.png>
@@ -446,8 +444,9 @@ File: obrazky/data.pdf Graphic file (type pdf)
 Package pdftex.def Info: obrazky/data.pdf used on input line 631.
 (pdftex.def)             Requested size: 199.64322pt x 235.47664pt.
 
-[3 <./obrazky/NIX_scheme.png> <./obrazky/odml_tree.pdf, page is rotated 90 degr
-ees>]
+[3 <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazky/NIX_sc
+heme.png> <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazky
+/odml_tree.pdf, page is rotated 90 degrees>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 661.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -470,12 +469,14 @@ File: obrazky/use_case_data.pdf Graphic file (type pdf)
 <use obrazky/use_case_data.pdf>
 Package pdftex.def Info: obrazky/use_case_data.pdf used on input line 748.
 (pdftex.def)             Requested size: 239.00232pt x 200.19745pt.
- [4 <./obrazky/data.pdf>] [5 <./obrazky/use_case_location.pdf> <./obrazky/use_c
-ase_data.pdf>]
+ [4 <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazky/data.
+pdf>] [5 <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazky/
+use_case_location.pdf> <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEE
+tran5/obrazky/use_case_data.pdf>]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 882.
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+(D:\MikTex\tex\latex\psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 879--885
@@ -497,7 +498,7 @@ m:
 
 
 Overfull \hbox (6.27823pt too wide) in paragraph at lines 879--885
-$[]$\OT1/ptm/m/n/8 . 
+[]$\OT1/ptm/m/n/8 . 
  []
 
 
@@ -532,7 +533,7 @@ il-able from:
 
 
 Overfull \hbox (6.27823pt too wide) in paragraph at lines 903--910
-$[]$\OT1/ptm/m/n/8 . 
+[]$\OT1/ptm/m/n/8 . 
  []
 
 
@@ -560,7 +561,7 @@ m:
 
 
 Overfull \hbox (6.27823pt too wide) in paragraph at lines 936--943
-$[]$\OT1/ptm/m/n/8 . 
+[]$\OT1/ptm/m/n/8 . 
  []
 
 
@@ -582,7 +583,7 @@ Underfull \hbox (badness 1577) in paragraph at lines 957--963
 
 
 Overfull \hbox (6.27823pt too wide) in paragraph at lines 967--974
-$[]$\OT1/ptm/m/n/8 . 
+[]$\OT1/ptm/m/n/8 . 
  []
 
 
@@ -646,7 +647,7 @@ m:
 
 
 Overfull \hbox (6.27823pt too wide) in paragraph at lines 1041--1047
-$[]$\OT1/ptm/m/n/8 . 
+[]$\OT1/ptm/m/n/8 . 
  []
 
 
@@ -666,27 +667,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6] (bare_conf.aux)
+[6] ("C:\Users\Roman Mouček\Documents\GitHub\konference\IEEEtran5\bare_conf.au
+x")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2598 strings out of 493675
- 38166 string characters out of 3141562
- 113676 words of memory out of 3000000
- 5920 multiletter control sequences out of 15000+200000
+ 2512 strings out of 493921
+ 35866 string characters out of 3154476
+ 105523 words of memory out of 3000000
+ 5786 multiletter control sequences out of 15000+200000
  44160 words of font info for 79 fonts, out of 3000000 for 9000
- 1028 hyphenation exceptions out of 8191
+ 844 hyphenation exceptions out of 8191
  27i,18n,23p,1040b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on bare_conf.pdf (6 pages, 582377 bytes).
+{D:/MikTex/fonts/enc/dvips/fontname/8r.enc}<D:/MikTex/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/urw/courier/ucrr8a.pfb><D:/MikTex/fon
+ts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/
+MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on bare_conf.pdf (6 pages, 582655 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
