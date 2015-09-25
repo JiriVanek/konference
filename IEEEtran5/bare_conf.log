@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.25)  25 SEP 2015 13:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.25)  25 SEP 2015 22:56
 entering extended mode
 **bare_conf.tex
 ("C:\Users\Roman Mouček\Documents\GitHub\konference\IEEEtran5\bare_conf.tex"
@@ -412,9 +412,9 @@ LaTeX Font Info:    ... okay on input line 351.
 \everyMPtoPDFconversion=\toks19
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 523.
+(Font)              <7> on input line 525.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 523.
+(Font)              <5> on input line 525.
  [1{C:/Users/Roman Mouček/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
@@ -432,27 +432,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: obrazky/odml_tree.pdf Graphic file (type pdf)
 
 <use obrazky/odml_tree.pdf>
-Package pdftex.def Info: obrazky/odml_tree.pdf used on input line 602.
+Package pdftex.def Info: obrazky/odml_tree.pdf used on input line 599.
 (pdftex.def)             Requested size: 253.54921pt x 179.23698pt.
  [2]
-Underfull \vbox (badness 5403) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-<obrazky/data.pdf, id=15, 391.4625pt x 461.725pt>
+ [3 <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazky/NIX_s
+cheme.png> <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazk
+y/odml_tree.pdf, page is rotated 90 degrees>]
+<obrazky/data.pdf, id=24, 391.4625pt x 461.725pt>
 File: obrazky/data.pdf Graphic file (type pdf)
  <use obrazky/data.pdf>
-Package pdftex.def Info: obrazky/data.pdf used on input line 631.
+Package pdftex.def Info: obrazky/data.pdf used on input line 617.
 (pdftex.def)             Requested size: 199.64322pt x 235.47664pt.
-
-[3 <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazky/NIX_sc
-heme.png> <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazky
-/odml_tree.pdf, page is rotated 90 degrees>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 661.
+(Font)              <8> on input line 640.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 661.
+(Font)              <6> on input line 640.
 
-Underfull \hbox (badness 4819) in paragraph at lines 687--688
+Underfull \hbox (badness 4819) in paragraph at lines 666--667
 []\OT1/ptm/m/n/7 Highest archived ed-u-ca-tion
  []
 
@@ -460,198 +458,209 @@ Underfull \hbox (badness 4819) in paragraph at lines 687--688
 File: obrazky/use_case_location.pdf Graphic file (type pdf)
 
 <use obrazky/use_case_location.pdf>
-Package pdftex.def Info: obrazky/use_case_location.pdf used on input line 728.
+Package pdftex.def Info: obrazky/use_case_location.pdf used on input line 712.
 (pdftex.def)             Requested size: 232.91962pt x 197.56763pt.
-
-<obrazky/use_case_data.pdf, id=26, 478.00583pt x 400.39587pt>
+ [4 <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazky/data.
+pdf>]
+<obrazky/use_case_data.pdf, id=33, 478.00583pt x 400.39587pt>
 File: obrazky/use_case_data.pdf Graphic file (type pdf)
 
 <use obrazky/use_case_data.pdf>
-Package pdftex.def Info: obrazky/use_case_data.pdf used on input line 748.
+Package pdftex.def Info: obrazky/use_case_data.pdf used on input line 732.
 (pdftex.def)             Requested size: 239.00232pt x 200.19745pt.
- [4 <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazky/data.
-pdf>] [5 <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazky/
-use_case_location.pdf> <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEE
-tran5/obrazky/use_case_data.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 882.
+ [5 <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5/obrazky/use_c
+ase_location.pdf> <C:/Users/Roman Mouček/Documents/GitHub/konference/IEEEtran5
+/obrazky/use_case_data.pdf>]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 864.
 
 
 (D:\MikTex\tex\latex\psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 879--885
+Underfull \hbox (badness 10000) in paragraph at lines 861--867
 []\OT1/ptm/m/sc/8 Poldrack\OT1/ptm/m/n/8 , R. A.  The fu-ture of fMRI in cog-ni
 -tive
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 879--885
+Underfull \hbox (badness 5245) in paragraph at lines 861--867
 \OT1/ptm/m/n/8 neu-ro-science.  \OT1/ptm/m/it/8 Neu-roIm-age\OT1/ptm/m/n/8 . au
 g 2012, 62, 2, s. 1216--1220.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--885
+Underfull \hbox (badness 10000) in paragraph at lines 861--867
 \OT1/pcr/m/n/8 10.1016/j.neuroimage.2011.08.007\OT1/ptm/m/n/8 .  Avail-able fro
 m:
  []
 
 
-Overfull \hbox (6.27823pt too wide) in paragraph at lines 879--885
+Overfull \hbox (6.27823pt too wide) in paragraph at lines 861--867
 []$\OT1/ptm/m/n/8 . 
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 887--893
+Underfull \hbox (badness 6016) in paragraph at lines 869--875
 \OT1/ptm/m/n/8 wide As-so-ci-a-tion Era.  \OT1/ptm/m/it/8 Neu-ron\OT1/ptm/m/n/8
  . jan 2012, 73, 2, s. 214--
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 887--893
+Underfull \hbox (badness 2828) in paragraph at lines 869--875
 \OT1/ptm/m/n/8 218.  \OT1/pcr/m/n/8 10.1016/j.neuron.2011.11.004\OT1/ptm/m/n/8 
 .  Avail-able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 895--901
+Underfull \hbox (badness 10000) in paragraph at lines 877--883
 []\OT1/ptm/m/sc/8 Poline\OT1/ptm/m/n/8 , J.-B. et al.  Data shar-ing in neu-roi
 mag-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 895--901
+Underfull \hbox (badness 10000) in paragraph at lines 877--883
 \OT1/ptm/m/n/8 ing re-search.  \OT1/ptm/m/it/8 Fron-tiers in Neu-roin-for-mat-i
 cs\OT1/ptm/m/n/8 . 2012,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 895--901
+Underfull \hbox (badness 10000) in paragraph at lines 877--883
 \OT1/ptm/m/n/8 6.  \OT1/pcr/m/n/8 10.3389/fninf.2012.00009\OT1/ptm/m/n/8 .  Ava
 il-able from:
  []
 
 
-Overfull \hbox (6.27823pt too wide) in paragraph at lines 903--910
+Overfull \hbox (6.27823pt too wide) in paragraph at lines 885--892
 []$\OT1/ptm/m/n/8 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--943
+Underfull \hbox (badness 10000) in paragraph at lines 918--925
 []\OT1/ptm/m/sc/8 Benda\OT1/ptm/m/n/8 , J.  From record-ing to shar-ing of data
  - em-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--943
+Underfull \hbox (badness 10000) in paragraph at lines 918--925
 \OT1/ptm/m/n/8 bed-ding meta-data han-dling into the lab-o-ra-tory work-flow
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--943
+Underfull \hbox (badness 10000) in paragraph at lines 918--925
 \OT1/ptm/m/n/8 us-ing odML.  \OT1/ptm/m/it/8 Fron-tiers in Neu-roin-for-mat-ics
 \OT1/ptm/m/n/8 . 2011, 5.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 936--943
+Underfull \hbox (badness 10000) in paragraph at lines 918--925
 \OT1/pcr/m/n/8 10.3389/conf.fninf.2011.08.00100\OT1/ptm/m/n/8 .  Avail-able fro
 m:
  []
 
 
-Overfull \hbox (6.27823pt too wide) in paragraph at lines 936--943
+Overfull \hbox (6.27823pt too wide) in paragraph at lines 918--925
 []$\OT1/ptm/m/n/8 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 950--953
+Underfull \hbox (badness 10000) in paragraph at lines 932--935
 []\OT1/ptm/m/it/8 Brain Prod-ucts GmbH \OT1/ptm/m/n/8 [on-line]. 2014. [cit. 03
 .07.2014].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 950--953
+Underfull \hbox (badness 10000) in paragraph at lines 932--935
 \OT1/ptm/m/n/8 Brain Prod-ucts GmbH.  Avail-able from:
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 957--963
+Underfull \hbox (badness 1577) in paragraph at lines 939--945
 \OT1/ptm/m/n/8 1, s. S7.  \OT1/pcr/m/n/8 10.1186/2041-1480-1-s1-s7\OT1/ptm/m/n/
 8 .  Avail-able from:
  []
 
 
-Overfull \hbox (6.27823pt too wide) in paragraph at lines 967--974
+Overfull \hbox (6.27823pt too wide) in paragraph at lines 949--956
 []$\OT1/ptm/m/n/8 . 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--992
+Underfull \hbox (badness 10000) in paragraph at lines 972--974
 []\OT1/ptm/m/it/8 INCF \OT1/ptm/m/n/8 [on-line]. 2015. [cit. 4.3.2015].  Avail-
 able from:
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 1005--1012
+Underfull \hbox (badness 10000) in paragraph at lines 976--978
+[]\OT1/ptm/m/it/8 INCF \OT1/ptm/m/n/8 [on-line]. 2015. [cit. 4.3.2015].  Avail-
+able from:
+ []
+
+
+Overfull \hbox (174.27834pt too wide) in paragraph at lines 976--978
+[]$\OT1/ptm/m/n/8 . 
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 991--998
 \OT1/ptm/m/n/8 an EDF alike stan-dard for-mat for the ex-change of phys-i-o-log
 -i-
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 1017--1023
+Underfull \hbox (badness 6016) in paragraph at lines 1003--1009
 \OT1/ptm/m/n/8 wide As-so-ci-a-tion Era.  \OT1/ptm/m/it/8 Neu-ron\OT1/ptm/m/n/8
  . jan 2012, 73, 2, s. 214--
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 1017--1023
+Underfull \hbox (badness 2828) in paragraph at lines 1003--1009
 \OT1/ptm/m/n/8 218.  \OT1/pcr/m/n/8 10.1016/j.neuron.2011.11.004\OT1/ptm/m/n/8 
 .  Avail-able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1027
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1013
 []\OT1/ptm/m/it/8 Neo \OT1/ptm/m/n/8 [on-line]. 2014. [cit. 03.07.2014].  Avail
 -able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1036
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1022
 []\OT1/ptm/m/it/8 NeXus For-mat \OT1/ptm/m/n/8 [on-line]. 2014. [cit. 03.07.201
 4]. NeXus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1036
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1022
 \OT1/ptm/m/n/8 In-ter-na-tional Ad-vi-sory Com-mit-tee.  Avail-able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1047
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1033
 []\OT1/ptm/m/sc/8 Poldrack\OT1/ptm/m/n/8 , R. A.  The fu-ture of fMRI in cog-ni
 -tive
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 1041--1047
+Underfull \hbox (badness 5245) in paragraph at lines 1027--1033
 \OT1/ptm/m/n/8 neu-ro-science.  \OT1/ptm/m/it/8 Neu-roIm-age\OT1/ptm/m/n/8 . au
 g 2012, 62, 2, s. 1216--1220.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1047
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1033
 \OT1/pcr/m/n/8 10.1016/j.neuroimage.2011.08.007\OT1/ptm/m/n/8 .  Avail-able fro
 m:
  []
 
 
-Overfull \hbox (6.27823pt too wide) in paragraph at lines 1041--1047
+Overfull \hbox (6.27823pt too wide) in paragraph at lines 1027--1033
 []$\OT1/ptm/m/n/8 . 
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 1060--1063
+Underfull \hbox (badness 1502) in paragraph at lines 1046--1049
 []\OT1/ptm/m/it/8 The Open Bi-o-log-i-cal and Biomed-i-cal On-tolo-gies \OT1/pt
 m/m/n/8 [on-line]. 2015.
  []
@@ -674,19 +683,19 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2512 strings out of 493921
- 35866 string characters out of 3154476
- 105523 words of memory out of 3000000
- 5786 multiletter control sequences out of 15000+200000
+ 2514 strings out of 493921
+ 35890 string characters out of 3154476
+ 105542 words of memory out of 3000000
+ 5788 multiletter control sequences out of 15000+200000
  44160 words of font info for 79 fonts, out of 3000000 for 9000
  844 hyphenation exceptions out of 8191
- 27i,18n,23p,1040b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,18n,23p,1264b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/MikTex/fonts/enc/dvips/fontname/8r.enc}<D:/MikTex/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/urw/courier/ucrr8a.pfb><D:/MikTex/fon
 ts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/
 MikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on bare_conf.pdf (6 pages, 582655 bytes).
+Output written on bare_conf.pdf (6 pages, 582554 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
