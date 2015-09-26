@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  26 SEP 2015 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.16)  26 SEP 2015 17:06
 entering extended mode
 **bare_conf.tex
 (bare_conf.tex
@@ -586,80 +586,80 @@ able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 982--984
+Underfull \hbox (badness 10000) in paragraph at lines 982--985
 []\OT1/ptm/m/it/8 INCF Elec-tro-phys-i-ol-ogy Task Force \OT1/ptm/m/n/8 [on-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 982--984
+Underfull \hbox (badness 10000) in paragraph at lines 982--985
 \OT1/ptm/m/n/8 line]. 2015. [cit. 4.3.2015].  Avail-able from:
  []
 
 
-Overfull \hbox (174.27834pt too wide) in paragraph at lines 982--984
-$[]$\OT1/ptm/m/n/8 . 
+Underfull \hbox (badness 10000) in paragraph at lines 982--985
+$[]$
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 997--1004
+Underfull \hbox (badness 2521) in paragraph at lines 998--1005
 \OT1/ptm/m/n/8 an EDF alike stan-dard for-mat for the ex-change of phys-i-o-log
 -i-
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 1009--1015
+Underfull \hbox (badness 6016) in paragraph at lines 1010--1016
 \OT1/ptm/m/n/8 wide As-so-ci-a-tion Era.  \OT1/ptm/m/it/8 Neu-ron\OT1/ptm/m/n/8
  . jan 2012, 73, 2, s. 214--
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 1009--1015
+Underfull \hbox (badness 2828) in paragraph at lines 1010--1016
 \OT1/ptm/m/n/8 218.  \OT1/pcr/m/n/8 10.1016/j.neuron.2011.11.004\OT1/ptm/m/n/8 
 .  Avail-able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1019
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1020
 []\OT1/ptm/m/it/8 Neo \OT1/ptm/m/n/8 [on-line]. 2014. [cit. 03.07.2014].  Avail
 -able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1028
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1029
 []\OT1/ptm/m/it/8 NeXus For-mat \OT1/ptm/m/n/8 [on-line]. 2014. [cit. 03.07.201
 4]. NeXus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1028
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1029
 \OT1/ptm/m/n/8 In-ter-na-tional Ad-vi-sory Com-mit-tee.  Avail-able from:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1040
 []\OT1/ptm/m/sc/8 Poldrack\OT1/ptm/m/n/8 , R. A.  The fu-ture of fMRI in cog-ni
 -tive
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 1033--1039
+Underfull \hbox (badness 5245) in paragraph at lines 1034--1040
 \OT1/ptm/m/n/8 neu-ro-science.  \OT1/ptm/m/it/8 Neu-roIm-age\OT1/ptm/m/n/8 . au
 g 2012, 62, 2, s. 1216--1220.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1040
 \OT1/pcr/m/n/8 10.1016/j.neuroimage.2011.08.007\OT1/ptm/m/n/8 .  Avail-able fro
 m:
  []
 
 
-Overfull \hbox (6.27823pt too wide) in paragraph at lines 1033--1039
+Overfull \hbox (6.27823pt too wide) in paragraph at lines 1034--1040
 $[]$\OT1/ptm/m/n/8 . 
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 1052--1055
+Underfull \hbox (badness 1502) in paragraph at lines 1053--1056
 []\OT1/ptm/m/it/8 The Open Bi-o-log-i-cal and Biomed-i-cal On-tolo-gies \OT1/pt
 m/m/n/8 [on-line]. 2015.
  []
@@ -695,7 +695,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 .9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on bare_conf.pdf (6 pages, 582309 bytes).
+Output written on bare_conf.pdf (6 pages, 582314 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
