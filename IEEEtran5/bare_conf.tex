@@ -558,11 +558,11 @@ NIX is one approach to this problem: it uses highly generic models for data as w
 \end{figure*}
 
 
-This format's scheme (Figure~\ref{NIX_scheme}) served as a base format for the EEGBase file format (data in this format is finally stored in the HDF5 container) that includes the experimental data originally stored in BrainVision data format and selected metadata structures originally stored in the EEGBase Portal~\cite{eegportal}. The experimental data are stored in blocks. Each block identifies an experiment and related metadata section. Raw data (signals, stimuli) are stored in DataArrays and specified by the attributes Dimension, Sample, Set, Representation, and Range (Figure~\ref{NIX_scheme}) and could be specified by the section DataTag. The stimuli and artifacts are stored in the section SimpleTag (one stimulus) or MultiTag (more stimuli). The source for the sections DataArrays and/or Tags could be specified by the section Source. Each section could contain a~link to the metadata part that contains information about experiment.
+This format's scheme (Figure~\ref{NIX_scheme}) served as a base format for the EEGBase file format (data in this format are finally stored in the HDF5 container) that includes the experimental data originally stored in BrainVision data format and selected metadata structures originally stored in the EEGBase Portal~\cite{eegportal}. The experimental data are stored in blocks. Each block identifies an experiment and related metadata section. Raw data (signals, stimuli) are stored in DataArrays and specified by the attributes Dimension, Sample, Set, Representation, and Range (Figure~\ref{NIX_scheme}) and could be specified by the section DataTag. The stimuli and artifacts are stored in the section SimpleTag (one stimulus) or MultiTag (more stimuli). The source for the sections DataArrays and/or Tags could be specified by the section Source. Each section could contain a~link to the metadata part that contains information about experiment.
 
 \subsubsection{Brain Vision Format}
 
-EEG data at University of West Bohemia is recorded by the BrainVision Recorder \cite{brainvision}. This program records raw data and saves it to three files. The BrainVision Recorder does not allow users to record data in any other format natively. The format of these files is described in the BrainVision Recorder User Manual \cite{brainUserManual}:
+EEG data at University of West Bohemia are recorded by the BrainVision Recorder \cite{brainvision}. This program records raw data and saves it to three files. The BrainVision Recorder does not allow users to record data in any other format natively. The format of these files is described in the BrainVision Recorder User Manual \cite{brainUserManual}:
 \begin{itemize}
 	\item \textbf{data file}
 	\label{eeg}
@@ -979,7 +979,7 @@ $\texttt{{http://dx.doi.org/10.3389/fninf.2011.00016}}$.
 \newblock Available from: $\texttt{{http://www.incf.org/}}$.
 
 \bibitem{incfwebtaskforce}
-\emph{INCF} [online]. 2015. [cit.~4.3.2015].
+\emph{INCF Electrophysiology Task Force} [online]. 2015. [cit.~4.3.2015].
 \newblock Available from: $\texttt{{http://www.incf.org/activities/our-programs/datasharing/electrophysiology-task-force/}}$.
 
 %\bibitem{ephdf}
