@@ -249,7 +249,7 @@
 
 
 
-
+\usepackage{epstopdf}
 \usepackage{footnote}
 % *** SUBFIGURE PACKAGES ***
 %\usepackage[tight,footnotesize]{subfigure}
@@ -284,7 +284,7 @@
 
 
 
-\usepackage{fixltx2e}
+%\usepackage{fixltx2e}
 % *** FLOAT PACKAGES ***
 %
 %\usepackage{fixltx2e}
@@ -552,7 +552,7 @@ The NIX project (previously called Pandora) started in the context of the Electr
 
 NIX uses highly generic models for data as well as for metadata and defines standard schemata for HDF5 files representing these models. The design principle of the data model used by NIX was to create a~rather minimalistic, generic, yet expressive model that is able to represent data stored in other widely used formats or models like Neuroshare or NEO without any loss of information. Due to its generic approach, the data model is also able to represent other kinds of data used in the field e.g. image data or image stacks \cite{pandora}. NIX provides a~convenient C++ library to simplify the access to the defined format.
 
-\begin{figure*}[h]
+\begin{figure*}
 	\centering
 	\includegraphics[scale=0.9]{obrazky/NIX_scheme.png}
 	\caption{NIX data scheme. \cite{pandora}}
@@ -600,7 +600,7 @@ HDF is similar to XML documents, self-describing HDF files allow users to specif
 \subsection{Open Metadata Markup Language}
 \label{odML}
 
-\begin{figure}[!t]
+\begin{figure}
 \centering
 \includegraphics[scale=0.3]{obrazky/odml_tree.pdf}
 \caption{Open metadata Markup Language Entity-Relation diagram. \cite{odml}}
@@ -620,7 +620,7 @@ The EEGBase data model is based on the NIX data model (Figure~\ref{NIX_scheme} a
 
 \begin{figure}
 	\begin{center}
-		\includegraphics[scale=0.51]{obrazky/data.pdf}
+		\includegraphics[scale=0.51]{obrazky/data.eps}
 		\caption{The EEGBase data model. The data are stored in a~tree structure using fixed terminology. Each Group MARKER and SIGNAL could contain zero or more DataArrays sections containing raw data.}
 		\label{format_scheme}
 	\end{center}
@@ -636,14 +636,12 @@ EEGbase metadata scheme and its terminology are organized according to odML gene
  In order to store all our metadata we extended the odML terminology. These extensions were committed to G-Node INCF GitHub repository~\cite{odmlgithub}. New sections \textbf{Environment}, \textbf{Protocol} and \textbf{Software} and several attributes to the existing sections \textbf{Person} and \textbf{Electrode} were added. All suggested changes were accepted by odML developers. All modifications are listed in Table \ref{modification}.
  	\begin{savenotes}
  \begin{table}
-
  \caption{Modifications of the odML model.}
  	\label{modification}
-
  	\begin{tabular}{ | l | l | l | p{3cm} |}		
  	\hline
  \textbf{Name}& \textbf{Property} & \textbf{Value} & \textbf{Definition} \\
- 	Electrode & Usage & Ground & Usage of electrode. \footnote{Added terminology that describes usage of electrode.}\\
+ 	Electrode & Usage & Ground & Usage of electrode.\footnote{Added terminology that describes usage of electrode.}\\
  	\hline
  	Electrode & Usage & Reference&Usage of electrode.\footnotemark[\value{footnote}] \\
  	\hline
@@ -697,7 +695,6 @@ EEGbase metadata scheme and its terminology are organized according to odML gene
  	Software & Description & String & \\ 		\hline
  	Software & LicenceDuration & String & Duration of the license for the software.\\ 		\hline
  \end{tabular}
-
  \end{table}
  \end{savenotes}
 
@@ -779,7 +776,7 @@ The performance tests were conducted to determine time consumption of export. Th
 \subsection{File Size Tests}
 Several file size tests were conducted to determine the resulting file size of the HDF5 container storing all data. Data from real experiments were used for these tests. The test showed that the size of the HDF5 container was influenced by exported data and the original file size was not the only decisive factor. The size of the HDF5 container was always bigger than original BrainVision files, four times bigger at the worst case, two times at the best case. The results are shown in Table~\ref{file_size} and Table~\ref{chunk_size}.
 
-\begin{table}[h]
+\begin{table}
 	\caption{File size tests.}
 	\label{file_size}
 	\centering
@@ -946,14 +943,6 @@ $\texttt{{http://dx.doi.org/10.1186/2041-1480-1-S1-S7}}$.
 
 
 
-\bibitem{incf_mission}
-{\sc Friedrich}, S. et~al.
-\newblock Mission and activities of the {INCF} Electrophysiology Data Sharing
-Task Force.
-\newblock \emph{Frontiers in Neuroinformatics}. 2014, 8.
-\newblock \texttt{10.3389/conf.fninf.2014.08.00088}.
-\newblock Available from:
-$\texttt{{http://dx.doi.org/10.3389/conf.fninf.2014.08.00088}}$.
 
 
 
@@ -997,17 +986,6 @@ for the exchange of physiological data.
 \newblock Available from:
 $\texttt{{http://dx.doi.org/10.1016/S1388-2457(03)00123-8}}$.
 
-
-
-
-\bibitem{Milham2012}
-{\sc Milham}, M.~P.
-\newblock Open Neuroscience Solutions for the Connectome-wide Association Era.
-\newblock \emph{Neuron}. jan 2012, 73, 2, s.~214--218.
-\newblock \texttt{10.1016/j.neuron.2011.11.004}.
-\newblock Available from:
-$\texttt{{http://dx.doi.org/10.1016/j.neuron.2011.11.004}}$.
-
 \bibitem{neo}
 \emph{Neo} [online]. 2014. [cit.~03.07.2014].
 \newblock Available from: $\texttt{{http://pythonhosted.org/neo/}}$.
@@ -1020,19 +998,6 @@ $\texttt{{http://dx.doi.org/10.1016/j.neuron.2011.11.004}}$.
 \emph{NeXus Format} [online]. 2014. [cit.~03.07.2014]. NeXus International
 Advisory Committee.
 \newblock Available from: $\texttt{{http://www.nexusformat.org/}}$.
-
-
-
-
-\bibitem{Poldrack2012}
-{\sc Poldrack}, R.~A.
-\newblock The future of {fMRI} in cognitive neuroscience.
-\newblock \emph{{NeuroImage}}. aug 2012, 62, 2, s.~1216--1220.
-\newblock \texttt{10.1016/j.neuroimage.2011.08.007}.
-\newblock Available from:
-$\texttt{{http://dx.doi.org/10.1016/j.neuroimage.2011.08.007}}$.
-
-
 
 \bibitem{pandora}
 \emph{NIX} [online]. 2014. [cit.~03.02.2015]. G-Node.
