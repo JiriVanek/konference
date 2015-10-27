@@ -514,9 +514,9 @@ Brain research has been very popular recently. Experimental electrophysiological
 
 To facilitate data and metadata sharing it is important to identify and develop an independent standard for storing and exporting experimental electrophysiological data and metadata. If this standard is accepted by a larger community, it will allow easy sharing and better understanding of experimental results.
 
-Currently there exist many models and formats for storing electrophysiology data and some terminologies and ontologies for storing electrophysiology metadata. Although at our neuroinformatics laboratory we are performing electrophysiology experiments. Experimental data are first stored in of open proprietary formats (BrainVision format) and finally with associated metadata (organized in custom metadata structures) stored in the web portal application - the EEGBase Portal~\cite{eegportal}. 
+Currently there exist many models and formats for storing electrophysiology data and some terminologies and ontologies for storing electrophysiology metadata. Although at our neuroinformatics laboratory we are performing electrophysiology experiments. Experimental data are first stored in of open proprietary formats (BrainVision format) and finally with associated metadata (organized in custom metadata structures) stored in the web portal application - the EEGBase Portal~\cite{eegportal}.
 
-International Neuroinformatics Coordinating Facility (INCF) Electrophysiology Task Force for data sharing~\cite{incfwebtaskforce} works on providing standards for these data and metadata. The mapping of the data and metadata model used in our EEGBase Portal (including extension of the standard metadata terminology) to the standards introduced within INCF Electrophysiology Task Force are the focus of this article.   
+International Neuroinformatics Coordinating Facility (INCF) Electrophysiology Task Force for data sharing~\cite{incfwebtaskforce} works on providing standards for these data and metadata. The mapping of the data and metadata model used in our EEGBase Portal (including extension of the standard metadata terminology) to the standards introduced within INCF Electrophysiology Task Force are the focus of this article.
 
 The paper is organized in the following way. First data sharing culture and INCF Program for Data Sharing are introduced. Then two selected formats for storing electrophysiology data, the NIX format and BrainVision format, are described. Moreover, HDF data model and odML initiative for metadata description are introduced. Then the mapping of BrainVision format to the NIX format and mapping of EEGBase metadata terminology to general metadata terminology are described. The next part deals with design, implementation, and testing of HDFExport Program that converts existing data and associated metadata stored in the EEGBase Portal into HDF5 container in which the standardized structures are defined. Conclusion section sums up and discusses the work results.
 
@@ -562,11 +562,11 @@ NIX uses highly generic models for data as well as for metadata and defines stan
 
 The NIX format's scheme is shown in Figure~\ref{NIX_scheme}. Experimental data are stored in blocks. Each block identifies an experiment and related metadata section. Raw data (signals, stimuli) are stored in DataArrays and specified by the attributes Dimension, Sample, Set, Representation, and Range (Figure~\ref{NIX_scheme}) and could be specified by the section DataTag. The stimuli and artifacts are stored in the section SimpleTag (one stimulus) or MultiTag (more stimuli). The source for the sections DataArrays and/or Tags could be specified by the section Source. Each section could contain a~link to the metadata part that contains information about experiment.
 
-The NIX format's scheme serves as a~base to which EEGBase data model (based on the BrainVision file format) is mapped. 
+The NIX format's scheme serves as a~base to which EEGBase data model (based on the BrainVision file format) is mapped.
 
-\subsubsection{Brain Vision Format}
+\subsubsection{BrainVision Format}
 
-Electrophysiology data in our neuroinformatics laboratory are recorded using the BrainVision Recorder \cite{brainvision} na stored into three files. The format of these files (BrainVision file forma)is described in the BrainVision Recorder User Manual \cite{brainUserManual}:
+Electrophysiology data in our neuroinformatics laboratory are recorded using the BrainVision Recorder \cite{brainvision} and stored into three files. The format of these files (BrainVision file forma)is described in the BrainVision Recorder User Manual \cite{brainUserManual}:
 \begin{itemize}
 	\item \textbf{data file}
 	\label{eeg}
@@ -576,7 +576,7 @@ Electrophysiology data in our neuroinformatics laboratory are recorded using the
 	\item \textbf{vhdr file}
 	\label{vhdr}
 	
-	This text file consists of various named sections containing key values. It includes basic information about measuring: coding, data file name, marker file name, number of channels, sampling interval in microseconds, information about binary format (IEEE\_FLOAT\_32), and information about channels (channel number, channel name, unit, resolution of unit). 
+	This text file consists of various named sections containing key values. It includes basic information about measuring: coding, data file name, marker file name, number of channels, sampling interval in microseconds, information about binary format (IEEE\_FLOAT\_32), and information about channels (channel number, channel name, unit, resolution of unit).
 	
 	\item \textbf{vmrk file}
 	\label{vmrk}
@@ -589,7 +589,7 @@ These files are stored (together with associated matadata) in the EEGBase Portal
 
 \subsection{Hierarchical Data Format}
 
-HDF is a data model, file format and library for storing extremely large and complex data collections. This technology is able to store any kind of data and is used all over the world in research centers and government agencies. For example, the format HDF5 (specific HDF implementation)is used by Cardiff University for resolving their problem with grid computing, Deutsche Bank for financial engineering, Diamond Light Source in synchrotron science, or Laboratory for Neural Computation for bio-engineering. 
+HDF is a data model, file format and library for storing extremely large and complex data collections. This technology is able to store any kind of data and is used all over the world in research centers and government agencies. For example, the format HDF5 (specific HDF implementation)is used by Cardiff University for resolving their problem with grid computing, Deutsche Bank for financial engineering, Diamond Light Source in synchrotron science, or Laboratory for Neural Computation for bio-engineering.
 
 A~lot of formats for storing electrophysiology data use HDF5.
 "The grouping structure in HDF5 enables applications to organize data objects in HDF5 to reflect complex relationships among objects. The rich collection of HDF5 datatypes, including datatypes that can point to data in other objects, and including the ability for users to define their own types, lets applications build sophisticated structures that match well with complex data. The HDF5 library has a~correspondingly rich set of operations that enables applications to access just those components that are important." \cite{hdf}
@@ -708,7 +708,7 @@ This section deals with design and implementation of HDFExport program that conv
 \subsection{Use Cases}
 The HDFExport program is designed for several use cases that could be identified by data and metadata location (Figure~\ref{use_case1}):
 \begin{itemize}
-	\item data and metadata from locally stored Brain Vision files are only exported,
+	\item data and metadata from locally stored BrainVision files are only exported,
 	\item data and metadata from locally stored BrainVision files  and metadata from the EEGBase Portal are exported,
 	\item data and basic metadata from BrainVision files stored in the EEGBase Portal are exported, most experimental metadata are not exported,
 	\item all data and metadata stored in the EEGBase Portal are exported.
@@ -726,7 +726,7 @@ Only data and metadata from the BrainVision files are exported, stimuli are not 
 	\item Raw EEG data, basic metadata and stimuli are exported.
 It means that all data, metadata and stimuli from BrainVision files are exported.
 	\item Raw EEG data, basic metadata, stimuli and experiments metadata are exported. It means that all data, metadata and stimuli from the BrainVision files and experiments metadata from the EEGBase Portal are exported.
-	\item Raw EEG data, basic metadata and experiments metadata are exported. 
+	\item Raw EEG data, basic metadata and experiments metadata are exported.
 
 \end{itemize}
 \begin{figure}
@@ -751,7 +751,7 @@ The program was manually tested for several use cases and all created HDF5 files
 
 \subsection{Performance Tests}
 
-The performance tests were conducted to determine time consumption of export. The tests were run on a~standard desktop computer (Intel Core i7 at 3,4 GHz, 8 GB of DDR3 RAM, standard HDD with 7200 rpm). An unusually high memory consumption was detected during the test. The size of occupied memory by the EEGExport program for big (220 MB) experimental data reached up to 4 GB of memory. Further testing showed that Java Virtual Machine, in attempt to speed up export, did not free allocated memory. However, when the program was paused, the size of allocated memory became lower. Finally, the disk writing speed was a limited factor. The conversion times with GZip compression that was used to reduce file size are shown in Table~\ref{speed_test}. (The GZip compression is integrated in HDF libraries and it is supported natively, reading of the data does not require any special actions).
+The performance tests were conducted to determine time consumption of export. The tests were run on a~standard desktop computer (Intel Core i7 at 3,4 GHz, 8 GB of DDR3 RAM, standard HDD with 7200 rpm). An unusually high memory consumption was detected during the test. The size of occupied memory by the EEGExport program for big (220 MB) experimental data reached up to 4 GB of memory. Further testing showed that Java Virtual Machine, in attempt to speed up export, did not free allocated memory. However, when the program was paused, the size of allocated memory became lower. Finally, the disk writing speed was a limited factor (it means that using any other implementation of HDF libraries would not help). The conversion times with GZip compression that was used to reduce file size are shown in Table~\ref{speed_test}. (The GZip compression is integrated in HDF libraries and it is supported natively, reading of the data does not require any special actions.)
 
 \begin{table}
 	\catcode`\-=12
@@ -777,7 +777,7 @@ The performance tests were conducted to determine time consumption of export. Th
 
 
 \subsection{File Size Tests}
-Several file size tests were conducted to determine the resulting file size of the HDF5 container storing all data. Data from real experiments were used for these tests. The test showed that the size of the HDF5 container was influenced by exported data and the original file size was not the only decisive factor. The size of the HDF5 container was always bigger than original BrainVision files, four times bigger at the worst case, two times at the best case. The results are shown in Table~\ref{file_size}.
+Several file size tests were conducted to determine the resulting file size of the HDF5 container storing all data. Data from real experiments were used for these tests. The test showed that the size of the HDF5 container was influenced by exported data and the original file size was not the only decisive factor. The size of the HDF5 container was always bigger than original BrainVision files, four times bigger at the worst case, two times at the best case. The results are shown in Table~\ref{file_size} and Table~\ref{chunk_size}.
 
 \begin{table}[h]
 	\caption{File size tests.}
@@ -817,7 +817,7 @@ Several file size tests were conducted to determine the resulting file size of t
 
 
 \section{Conclusion}
-This article described standardization efforts in description of experimental electrophysiology data and metadata for our neuroinformatics lab purposes. We examined current file formats and standardizing efforts dealing with description and storage of electrophysiology data. Many of them use HDF as a data container. Then the most suitable format (the NIX project) was selected and INCF recommendations were taken into account. The local EEGBase data model was mapped to the NIX data model and several terms from the EEGBase metadata set extended (some of them were mapped to) odML metadata terminology. These data and metadata models were fully reflected when the inner structure of the HDF5 container was proposed. Finally, the program HDFExport was designed and developed. This software tool transfers both our experimental data and metadata stored within or outside the EEGBase portal repositories to the HDF5 container. The resulting HDF5 container was tested for its contents and the process of creating HDF5 container was tested for its performance and size of the resulting file.
+This article described standardization efforts in description of experimental electrophysiology data and metadata for our neuroinformatics lab purposes. We examined current file formats and standardizing efforts dealing with description and storage of electrophysiology data. Many of them use HDF as a data container. Then the most suitable format (the NIX project) was selected and INCF recommendations were taken into account. The local EEGBase data model was mapped to the NIX data model and several terms from the EEGBase metadata set extended (some of them were mapped to) odML metadata terminology. These data and metadata models were fully reflected when the inner structure of the HDF5 container was proposed. Finally, the program HDFExport was designed and developed. This software tool transfers both our experimental data and metadata stored within or outside the EEGBase portal repositories to the HDF5 container. The resulting HDF5 container was tested for its contents and the process of creating HDF5 container was tested for its performance and size of the resulting file.  
 
 The proposed EEGBase file format in the HDF5 container is capable of storing a large variety of electrophysiology data and metadata. Exporting experimental data and metadata stored in the EEGBase to the HDF5 container improves sharing capabilities of the EEGBase portal and overall attractiveness of stored experiments.
 
